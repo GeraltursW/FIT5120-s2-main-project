@@ -12,20 +12,20 @@ const Datav = () =>
         
         <div className={`${styles.paddingX} flex justify-center items-start h-[600px] `}>
           {/* 图1 */}
-          <div className="w-[1000px]">
+          <div className="w-[800px]">
           <DemoLines/> 
           <h1 className="text-white">chart1</h1>
           {/* <p className="text-white">Description Description Description Description Description</p> */}
           </div>  
         
         {/* 图2 */}
-          <div className="w-[500px]">
+          <div className="w-[600px]">
           <DemoPie/>
           <h1 className="text-white">chart3</h1>
           {/* <p className="text-white">Description Description Description Description Description</p> */}
           </div>
         {/* 图3*/}
-          <div className="w-[500px]">
+          <div className="w-[600px]">
           <DemoPie/>
           <h1 className="text-white">chart3</h1>
           {/* <p className="text-white">Description Description Description Description Description</p> */}
@@ -37,14 +37,14 @@ const Datav = () =>
 
       {/* 下图 */}
         {/* 图4 */}
-        <div className={`${styles.paddingX} flex justify-center items-start h-[600px] `}>
-          <div className="w-[1000px]">
+        <div className={`${styles.paddingX} flex justify-center items-end h-[600px] `}>
+          <div className="w-[1200px]">
           <DemoMix/>
           <h1 className="text-white">chart4</h1>
           {/* <p className="text-white">Description Description Description Description Description</p> */}
         
         </div>
-        <div className="w-[1000px]">
+        <div className="w-[800px]">
           <DemoColumn/>
           <h1 className="text-white">chart4</h1>
           {/* <p className="text-white">Description Description Description Description Description</p> */}
