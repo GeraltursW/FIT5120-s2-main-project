@@ -1,22 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom';
+// import React, { useState, useEffect } from 'react';
+import data from './data.json';
 import { Mix, G2 } from '@ant-design/plots';
 
 const DemoMix = () => {
-  const [data, setData] = useState({});
+  // const [data, setData] = useState({});
 
-  useEffect(() => {
-    asyncFetch();
-  }, []);
+  // useEffect(() => {
+  //   asyncFetch();
+  // }, []);
 
-  const asyncFetch = () => {
-    fetch('https://gw.alipayobjects.com/os/antfincdn/HkxWvFrZuC/association-data.json')
-      .then((response) => response.json())
-      .then((json) => setData(json))
-      .catch((error) => {
-        console.log('fetch data failed', error);
-      });
-  };
+  // const asyncFetch = () => {
+  //   fetch('https://gw.alipayobjects.com/os/antfincdn/HkxWvFrZuC/association-data.json')
+  //     .then((response) => response.json())
+  //     .then((json) => setData(json))
+  //     .catch((error) => {
+  //       console.log('fetch data failed', error);
+  //     });
+  // };
 
   G2.registerInteraction('custom-association-filter', {
     showEnable: [
@@ -81,9 +81,9 @@ const DemoMix = () => {
           tooltip: {
             showMarkers: false,
           },
-          radius: 0.85,
+          radius: 1,
           label: {
-            type: 'inner',
+            type: 'outer',
             formatter: '{name}',
             offset: '-15%',
           },
