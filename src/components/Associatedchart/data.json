@@ -1,0 +1,402 @@
+{
+    "pie":[
+        {
+          "area": "Electricity",
+          "bill": 160.5,
+          "name": "Electricity",
+          "sale": 160.5
+        },
+        {
+          "area": "Stationary Energy (except electricity)",
+          "bill": 102.5,
+          "name": "Stationary Energy (except electricity)",
+          "sale": 102.5
+        },
+        {
+          "area": "Transport",
+          "bill": 90.9,
+          "name": "Transport",
+          "sale": 90.9
+        },
+        {
+          "area": "Fugitive value",
+          "bill": 50.8,
+          "name": "Fugitive value",
+          "sale": 50.8
+        },
+        {
+          "area": "Industrial Process and Product Use",
+          "bill": 32.5,
+          "name": "Industrial Process and Product Use",
+          "sale": 32.5
+        },
+        {
+          "area": "Agriculture",
+          "bill": 77.2,
+          "name": "Agriculture",
+          "sale": 77.2
+        }
+      ],
+    "line":[
+        {
+          "area": "Electricity",
+          "value": 46.5,
+          "time": "2019 Q1"
+        },
+        {
+          "area": "Electricity",
+          "value": 43.9,
+          "time": "2019 Q2"
+        },
+        {
+          "area": "Electricity",
+          "value": 43.6,
+          "time": "2019 Q3"
+        },
+        {
+          "area": "Electricity",
+          "value": 42.2,
+          "time": "2019 Q4"
+        },
+        {
+          "area": "Electricity",
+          "value": 44.2,
+          "time": "2020 Q1"
+        },
+        {
+          "area": "Electricity",
+          "value": 41.7,
+          "time": "2020 Q2"
+        },
+        {
+          "area": "Electricity",
+          "value": 42.4,
+          "time": "2020 Q3"
+        },
+        {
+          "area": "Electricity",
+          "value": 39.2,
+          "time": "2020 Q4"
+        },
+        {
+          "area": "Electricity",
+          "value": 40.8,
+          "time": "2021 Q1"
+        },
+        {
+          "area": "Electricity",
+          "value": 41.5,
+          "time": "2021 Q2"
+        },
+        {
+          "area": "Electricity",
+          "value": 41.0,
+          "time": "2021 Q3"
+        },
+        {
+          "area": "Electricity",
+          "value": 37.2,
+          "time": "2021 Q4"
+        },
+        {
+          "area": "Stationary Energy \n(except electricity)",
+          "value": 21.9,
+          "time": "2019 Q1"
+        },
+        {
+          "area": "Stationary Energy \n(except electricity)",
+          "value": 26.6,
+          "time": "2019 Q2"
+        },
+        {
+          "area": "Stationary Energy \n(except electricity)",
+          "value": 26.2,
+          "time": "2019 Q3"
+        },
+        {
+          "area": "Stationary Energy \n(except electricity)",
+          "value": 24.4,
+          "time": "2019 Q4"
+        },
+        {
+          "area": "Stationary Energy \n(except electricity)",
+          "value": 24.2,
+          "time": "2020 Q1"
+        },
+        {
+          "area": "Stationary Energy \n(except electricity)",
+          "value": 25.7,
+          "time": "2020 Q2"
+        },
+        {
+          "area": "Stationary Energy \n(except electricity)",
+          "value": 25.2,
+          "time": "2020 Q3"
+        },
+        {
+          "area": "Stationary Energy \n(except electricity)",
+          "value": 24.2,
+          "time": "2020 Q4"
+        },
+        {
+          "area": "Stationary Energy \n(except electricity)",
+          "value": 24.0,
+          "time": "2021 Q1"
+        },
+        {
+          "area": "Stationary Energy \n(except electricity)",
+          "value": 25.8,
+          "time": "2021 Q2"
+        },
+        {
+          "area": "Stationary Energy \n(except electricity)",
+          "value": 27.4,
+          "time": "2021 Q3"
+        },
+        {
+          "area": "Stationary Energy \n(except electricity)",
+          "value": 25.3,
+          "time": "2021 Q4"
+        },
+        {
+          "area": "Transport",
+          "value": 24.2,
+          "time": "2019 Q1"
+        },
+        {
+          "area": "Transport",
+          "value": 24.9,
+          "time": "2019 Q2"
+        },
+        {
+          "area": "Transport",
+          "value": 24.9,
+          "time": "2019 Q3"
+        },
+        {
+          "area": "Transport",
+          "value": 25.6,
+          "time": "2019 Q4"
+        },
+        {
+          "area": "Transport",
+          "value": 24.1,
+          "time": "2020 Q1"
+        },
+        {
+          "area": "Transport",
+          "value": 18.7,
+          "time": "2020 Q2"
+        },
+        {
+          "area": "Transport",
+          "value": 21.1,
+          "time": "2020 Q3"
+        },
+        {
+          "area": "Transport",
+          "value": 23.5,
+          "time": "2020 Q4"
+        },
+        {
+          "area": "Transport",
+          "value": 22.9,
+          "time": "2021 Q1"
+        },
+        {
+          "area": "Transport",
+          "value": 24.1,
+          "time": "2021 Q2"
+        },
+        {
+          "area": "Transport",
+          "value": 20.2,
+          "time": "2021 Q3"
+        },
+        {
+          "area": "Transport",
+          "value": 23.7,
+          "time": "2021 Q4"
+        },
+        {
+          "area": "Fugitive value",
+          "value": 13.2,
+          "time": "2019 Q1"
+        },
+        {
+          "area": "Fugitive value",
+          "value": 14.9,
+          "time": "2019 Q2"
+        },
+        {
+          "area": "Fugitive value",
+          "value": 13.9,
+          "time": "2019 Q3"
+        },
+        {
+          "area": "Fugitive value",
+          "value": 13.5,
+          "time": "2019 Q4"
+        },
+        {
+          "area": "Fugitive value",
+          "value": 12.7,
+          "time": "2020 Q1"
+        },
+        {
+          "area": "Fugitive value",
+          "value": 13.4,
+          "time": "2020 Q2"
+        },
+        {
+          "area": "Fugitive value",
+          "value": 12.3,
+          "time": "2020 Q3"
+        },
+        {
+          "area": "Fugitive value",
+          "value": 11.5,
+          "time": "2020 Q4"
+        },
+        {
+          "area": "Fugitive value",
+          "value": 12.3,
+          "time": "2021 Q1"
+        },
+        {
+          "area": "Fugitive value",
+          "value": 12.5,
+          "time": "2021 Q2"
+        },
+        {
+          "area": "Fugitive value",
+          "value": 13.2,
+          "time": "2021 Q3"
+        },
+        {
+          "area": "Fugitive value",
+          "value": 12.8,
+          "time": "2021 Q4"
+        },
+        {
+          "area": "Industrial Process \nand Product Use",
+          "value": 7.9,
+          "time": "2019 Q1"
+        },
+        {
+          "area": "Industrial Process \nand Product Use",
+          "value": 8.2,
+          "time": "2019 Q2"
+        },
+        {
+          "area": "Industrial Process \nand Product Use",
+          "value": 8.0,
+          "time": "2019 Q3"
+        },
+        {
+          "area": "Industrial Process \nand Product Use",
+          "value": 8.0,
+          "time": "2019 Q4"
+        },
+        {
+          "area": "Industrial Process \nand Product Use",
+          "value": 7.9,
+          "time": "2020 Q1"
+        },
+        {
+          "area": "Industrial Process \nand Product Use",
+          "value": 7.9,
+          "time": "2020 Q2"
+        },
+        {
+          "area": "Industrial Process \nand Product Use",
+          "value": 8.0,
+          "time": "2020 Q3"
+        },
+        {
+          "area": "Industrial Process \nand Product Use",
+          "value": 8.2,
+          "time": "2020 Q4"
+        },
+        {
+          "area": "Industrial Process \nand Product Use",
+          "value": 8.0,
+          "time": "2021 Q1"
+        },
+        {
+          "area": "Industrial Process \nand Product Use",
+          "value": 8.1,
+          "time": "2021 Q2"
+        },
+        {
+          "area": "Industrial Process \nand Product Use",
+          "value": 8.2,
+          "time": "2021 Q3"
+        },
+        {
+          "area": "Industrial Process \nand Product Use",
+          "value": 8.2,
+          "time": "2021 Q4"
+        },
+        {
+          "area": "Agriculture",
+          "value": 18.4,
+          "time": "2019 Q1"
+        },
+        {
+          "area": "Agriculture",
+          "value": 18.7,
+          "time": "2019 Q2"
+        },
+        {
+          "area": "Agriculture",
+          "value": 18.3,
+          "time": "2019 Q3"
+        },
+        {
+          "area": "Agriculture",
+          "value": 18.3,
+          "time": "2019 Q4"
+        },
+        {
+          "area": "Agriculture",
+          "value": 18.1,
+          "time": "2020 Q1"
+        },
+        {
+          "area": "Agriculture",
+          "value": 18.1,
+          "time": "2020 Q2"
+        },
+        {
+          "area": "Agriculture",
+          "value": 19.0,
+          "time": "2020 Q3"
+        },
+        {
+          "area": "Agriculture",
+          "value": 19.0,
+          "time": "2020 Q4"
+        },
+        {
+          "area": "Agriculture",
+          "value": 18.6,
+          "time": "2021 Q1"
+        },
+        {
+          "area": "Agriculture",
+          "value": 18.8,
+          "time": "2021 Q2"
+        },
+        {
+          "area": "Agriculture",
+          "value": 19.9,
+          "time": "2021 Q3"
+        },
+        {
+          "area": "Agriculture",
+          "value": 19.9,
+          "time": "2021 Q4"
+        }
+      ]
+}
