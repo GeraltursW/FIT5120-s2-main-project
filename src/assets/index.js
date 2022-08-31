@@ -10,6 +10,8 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
+import Earth from "./Earth.png";
+
 export {
   logo,
   star,
@@ -22,4 +24,5 @@ export {
   instagram,
   linkedin,
   twitter,
+  Earth,
 };
