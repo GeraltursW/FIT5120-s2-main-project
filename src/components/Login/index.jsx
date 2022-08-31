@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import { Button, Form, Input } from 'antd';
-import { LockOutlined, UserOutlined } from '@ant-design/icons';
-
-import './index.css'
 import { useNavigate } from 'react-router-dom';
+import { LockOutlined, UserOutlined } from '@ant-design/icons';
+import videobg from '../../assets/back-video.mp4'
+import './index.css'
 
  const Login = () => {
     const navigate = useNavigate()
@@ -18,10 +18,10 @@ import { useNavigate } from 'react-router-dom';
         navigate('/home');
     }
     return (
+        <div className='video-wrapper'>
+            <div className='video-overlay'></div>
+            <video src={videobg} autoPlay loop muted ></video>
       <div className="login">
-        <header className="login-header">
-            <h1>Please Login</h1>
-        </header>
         <section className="login-content">
             <h2>LOGIN</h2>
             <Form
@@ -71,6 +71,7 @@ import { useNavigate } from 'react-router-dom';
                 </Form.Item>
             </Form>
         </section>
+      </div>
       </div>
     )
   }
