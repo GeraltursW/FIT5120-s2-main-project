@@ -17,3 +17,20 @@ export const navLinks = [
     },
 ];
 
+export const stats = [
+  {
+    id: "stats-1",
+    title: "International Students",
+    value: "3800+",
+  },
+  {
+    id: "stats-2",
+    title: "Average Usuage",
+    value: "230+",
+  },
+  {
+    id: "stats-3",
+    title: "Transaction",
+    value: "$230M+",
+  },
+];
