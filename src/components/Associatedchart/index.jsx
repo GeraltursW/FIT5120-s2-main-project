@@ -4,9 +4,9 @@ import { Mix, G2 } from '@ant-design/plots';
 
 // 导入数据可视乎主题
 
-import themeOptions from './theme.json'
+import themeOptions1 from './theme1.json'
 const { registerTheme } = G2;
-registerTheme('custom-theme', themeOptions);
+registerTheme('custom-theme1', themeOptions1);
 
 const DemoMix = () => {
   // const [data, setData] = useState({});
@@ -64,7 +64,7 @@ const DemoMix = () => {
   }
   
   const config = {
-    theme: 'custom-theme',
+    theme: 'custom-theme1',
     // 关闭 chart 上的 tooltip，子 view 开启 tooltip
     tooltip: false,
     plots: [

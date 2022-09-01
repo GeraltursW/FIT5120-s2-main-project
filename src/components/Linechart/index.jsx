@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { G2, Line } from '@ant-design/plots';
 import data from './data.json';
 
-import themeOptions from './theme.json'
+import themeOptions2 from './theme2.json'
 const { registerTheme } = G2;
-registerTheme('custom-theme', themeOptions);
+registerTheme('custom-theme2', themeOptions2);
 
 const DemoLines = () => {
   
@@ -20,7 +20,7 @@ const DemoLines = () => {
     },
 
     // theme: 'dark',
-    theme: 'custom-theme',
+    theme: 'custom-theme2',
     legend: {
       position: 'top',
     },
