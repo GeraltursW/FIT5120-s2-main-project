@@ -1,0 +1,602 @@
+[
+    {
+      "name": "Electricity",
+      "year": 2002,
+      "gdp": 187.0
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2002,
+      "gdp": 77.6
+    },
+    {
+      "name": "Transport",
+      "year": 2002,
+      "gdp": 76.7
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2002,
+      "gdp": 41.8
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2002,
+      "gdp": 28.0
+    },
+    {
+      "name": "Agriculture",
+      "year": 2002,
+      "gdp": 84.6
+    },
+    {
+      "name": "Electricity",
+      "year": 2003,
+      "gdp": 187.6
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2003,
+      "gdp": 79.5
+    },
+    {
+      "name": "Transport",
+      "year": 2003,
+      "gdp": 79.5
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2003,
+      "gdp": 40.8
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2003,
+      "gdp": 30.4
+    },
+    {
+      "name": "Agriculture",
+      "year": 2003,
+      "gdp": 83.3
+    },
+    {
+      "name": "Electricity",
+      "year": 2004,
+      "gdp": 198.1
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2004,
+      "gdp": 81.2
+    },
+    {
+      "name": "Transport",
+      "year": 2004,
+      "gdp": 81.7
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2004,
+      "gdp": 41.7
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2004,
+      "gdp": 30.2
+    },
+    {
+      "name": "Agriculture",
+      "year": 2004,
+      "gdp": 85.8
+    },
+    {
+      "name": "Electricity",
+      "year": 2005,
+      "gdp": 197.4
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2005,
+      "gdp": 81.7
+    },
+    {
+      "name": "Transport",
+      "year": 2005,
+      "gdp": 82.5
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2005,
+      "gdp": 43.1
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2005,
+      "gdp": 30.5
+    },
+    {
+      "name": "Agriculture",
+      "year": 2005,
+      "gdp": 85.0
+    },
+    {
+      "name": "Electricity",
+      "year": 2006,
+      "gdp": 204.3
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2006,
+      "gdp": 81.6
+    },
+    {
+      "name": "Transport",
+      "year": 2006,
+      "gdp": 84.0
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2006,
+      "gdp": 45.1
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2006,
+      "gdp": 31.6
+    },
+    {
+      "name": "Agriculture",
+      "year": 2006,
+      "gdp": 82.2
+    },
+    {
+      "name": "Electricity",
+      "year": 2007,
+      "gdp": 204.9
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2007,
+      "gdp": 83.1
+    },
+    {
+      "name": "Transport",
+      "year": 2007,
+      "gdp": 86.0
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2007,
+      "gdp": 46.7
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2007,
+      "gdp": 32.6
+    },
+    {
+      "name": "Agriculture",
+      "year": 2007,
+      "gdp": 78.8
+    },
+    {
+      "name": "Electricity",
+      "year": 2008,
+      "gdp": 209.8
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2008,
+      "gdp": 85.0
+    },
+    {
+      "name": "Transport",
+      "year": 2008,
+      "gdp": 87.3
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2008,
+      "gdp": 45.6
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2008,
+      "gdp": 33.0
+    },
+    {
+      "name": "Agriculture",
+      "year": 2008,
+      "gdp": 77.8
+    },
+    {
+      "name": "Electricity",
+      "year": 2009,
+      "gdp": 206.6
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2009,
+      "gdp": 81.3
+    },
+    {
+      "name": "Transport",
+      "year": 2009,
+      "gdp": 88.3
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2009,
+      "gdp": 45.6
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2009,
+      "gdp": 30.2
+    },
+    {
+      "name": "Agriculture",
+      "year": 2009,
+      "gdp": 76.4
+    },
+    {
+      "name": "Electricity",
+      "year": 2010,
+      "gdp": 200.4
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2010,
+      "gdp": 85.7
+    },
+    {
+      "name": "Transport",
+      "year": 2010,
+      "gdp": 89.1
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2010,
+      "gdp": 45.8
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2010,
+      "gdp": 34.3
+    },
+    {
+      "name": "Agriculture",
+      "year": 2010,
+      "gdp": 77.4
+    },
+    {
+      "name": "Electricity",
+      "year": 2011,
+      "gdp": 200.3
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2011,
+      "gdp": 87.0
+    },
+    {
+      "name": "Transport",
+      "year": 2011,
+      "gdp": 90.5
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2011,
+      "gdp": 42.6
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2011,
+      "gdp": 33.4
+    },
+    {
+      "name": "Agriculture",
+      "year": 2011,
+      "gdp": 80.6
+    },
+    {
+      "name": "Electricity",
+      "year": 2012,
+      "gdp": 191.9
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2012,
+      "gdp": 91.8
+    },
+    {
+      "name": "Transport",
+      "year": 2012,
+      "gdp": 93.5
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2012,
+      "gdp": 45.1
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2012,
+      "gdp": 30.3
+    },
+    {
+      "name": "Agriculture",
+      "year": 2012,
+      "gdp": 81.6
+    },
+    {
+      "name": "Electricity",
+      "year": 2013,
+      "gdp": 183.0
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2013,
+      "gdp": 92.6
+    },
+    {
+      "name": "Transport",
+      "year": 2013,
+      "gdp": 92.1
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2013,
+      "gdp": 43.9
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2013,
+      "gdp": 29.6
+    },
+    {
+      "name": "Agriculture",
+      "year": 2013,
+      "gdp": 81.9
+    },
+    {
+      "name": "Electricity",
+      "year": 2014,
+      "gdp": 185.5
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2014,
+      "gdp": 93.0
+    },
+    {
+      "name": "Transport",
+      "year": 2014,
+      "gdp": 94.3
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2014,
+      "gdp": 46.3
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2014,
+      "gdp": 29.9
+    },
+    {
+      "name": "Agriculture",
+      "year": 2014,
+      "gdp": 80.5
+    },
+    {
+      "name": "Electricity",
+      "year": 2015,
+      "gdp": 192.5
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2015,
+      "gdp": 87.8
+    },
+    {
+      "name": "Transport",
+      "year": 2015,
+      "gdp": 95.4
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2015,
+      "gdp": 48.7
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2015,
+      "gdp": 30.5
+    },
+    {
+      "name": "Agriculture",
+      "year": 2015,
+      "gdp": 78.4
+    },
+    {
+      "name": "Electricity",
+      "year": 2016,
+      "gdp": 191.6
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2016,
+      "gdp": 96.2
+    },
+    {
+      "name": "Transport",
+      "year": 2016,
+      "gdp": 97.7
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2016,
+      "gdp": 49.7
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2016,
+      "gdp": 30.8
+    },
+    {
+      "name": "Agriculture",
+      "year": 2016,
+      "gdp": 80.0
+    },
+    {
+      "name": "Electricity",
+      "year": 2017,
+      "gdp": 186.7
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2017,
+      "gdp": 96.6
+    },
+    {
+      "name": "Transport",
+      "year": 2017,
+      "gdp": 98.5
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2017,
+      "gdp": 53.9
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2017,
+      "gdp": 31.1
+    },
+    {
+      "name": "Agriculture",
+      "year": 2017,
+      "gdp": 81.2
+    },
+    {
+      "name": "Electricity",
+      "year": 2018,
+      "gdp": 181.1
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2018,
+      "gdp": 99.1
+    },
+    {
+      "name": "Transport",
+      "year": 2018,
+      "gdp": 100.6
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2018,
+      "gdp": 54.4
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2018,
+      "gdp": 32.5
+    },
+    {
+      "name": "Agriculture",
+      "year": 2018,
+      "gdp": 77.8
+    },
+    {
+      "name": "Electricity",
+      "year": 2019,
+      "gdp": 176.2
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2019,
+      "gdp": 99.1
+    },
+    {
+      "name": "Transport",
+      "year": 2019,
+      "gdp": 99.6
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2019,
+      "gdp": 55.5
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2019,
+      "gdp": 32.1
+    },
+    {
+      "name": "Agriculture",
+      "year": 2019,
+      "gdp": 73.7
+    },
+    {
+      "name": "Electricity",
+      "year": 2020,
+      "gdp": 167.5
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2020,
+      "gdp": 99.3
+    },
+    {
+      "name": "Transport",
+      "year": 2020,
+      "gdp": 87.4
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2020,
+      "gdp": 49.9
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2020,
+      "gdp": 32.0
+    },
+    {
+      "name": "Agriculture",
+      "year": 2020,
+      "gdp": 74.2
+    },
+    {
+      "name": "Electricity",
+      "year": 2021,
+      "gdp": 160.5
+    },
+    {
+      "name": "Stationary Energy \n(except electricity)",
+      "year": 2021,
+      "gdp": 102.5
+    },
+    {
+      "name": "Transport",
+      "year": 2021,
+      "gdp": 90.9
+    },
+    {
+      "name": "Fugitive Emissions",
+      "year": 2021,
+      "gdp": 50.8
+    },
+    {
+      "name": "Industrial Process \nand Product Use",
+      "year": 2021,
+      "gdp": 32.5
+    },
+    {
+      "name": "Agriculture",
+      "year": 2021,
+      "gdp": 77.2
+    }
+  ]

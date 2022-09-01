@@ -2,46 +2,57 @@ import React from 'react'
 import DemoLines from '../Linechart'
 import DemoMix from '../Associatedchart'
 import styles from '../../style'
-import DemoColumn from '../BarChart'
+import IntroDatav from '../IntroDatav'
 const Datav = () => 
  (
-    <div>
-      {/* 上图 */}
-      <div className="bg-primary w-full overflow-hidden">
-        
-        <div className={`${styles.paddingX} flex justify-center items-start h-[600px] `}>
-          {/* 图1 */}
-          <div className="w-[800px]">
-          <DemoLines/> 
-          <h1 className="text-white">chart1</h1>
-          {/* <p className="text-white">Description Description Description Description Description</p> */}
-          </div>  
-        
-        </div>
-        
+    <div className="bg-primary w-full overflow-hidden">
+
+      <div className={`${styles.paddingX} ${styles.flexCenter} bg-darkgreen`}>
+        <div className={`${styles.boxWidth}`}>
+            <IntroDatav/>
+        </div>  
+      </div>
+
+      <div className={`${styles.paddingX} ${styles.flexCenter} bg-lightgreen `}>
+        <div className={`${styles.boxWidth}`}>
+          <div className={`${styles.paddingY} flex flex-col md:flex-row `}>
+              {/* 图1 */}
+              <div className='h-[400px] w-[600px] '>
+              <DemoLines/>
+              </div>
+
+              <div className={`h-[400px] w-[600px] py-10 flex flex-col`}>
+                <h1 className='font-poppins font-semibold text-right text-white text-[25px] leading-[23.4px] mb-1'>Titile 1</h1> 
+                <p className='font-poppins font-semibold text-right pt-10 text-dimWhite text-[18px] leading-[23.4px] mb-1'> Description Description Description Description Description Description DescriptionDescription Description Description Description Description</p>
+              </div>
+              
+          </div>
+        </div>  
+      </div>
+
+
+      <div className={`${styles.paddingX} ${styles.flexCenter} bg-yellowgreen `}>
+        <div className={`${styles.boxWidth}`}>
+
+          <div className={`${styles.paddingY} flex flex-col md:flex-row-reverse `}>
+              {/* 图1 */}
+              <div className='h-[400px] w-[600px] '>
+              <DemoMix/>
+              </div>
+
+              <div className={`h-[400px] w-[600px] py-10 flex flex-col`}>
+                <h1 className='font-poppins font-semibold text-left text-white text-[25px] leading-[23.4px] mb-1'>Titile 1</h1> 
+                <p className='font-poppins font-semibold text-left pt-10 text-dimWhite text-[18px] leading-[23.4px] mb-1'> Description Description Description Description Description Description DescriptionDescription Description Description Description Description</p>
+              </div>
+              
+          </div>
+
+        </div>  
+      </div>
 
       
 
-      {/* 下图 */}
-        {/* 图4 */}
-        <div className={`${styles.paddingX} flex justify-center items-end h-[600px] `}>
-          <div className="w-[1200px]">
-          <DemoMix/>
-          <h1 className="text-white">chart4</h1>
-          {/* <p className="text-white">Description Description Description Description Description</p> */}
-        
-        </div>
-
-        
-        </div>
-
-        <div className={`${styles.paddingX} flex justify-center items-start h-[600px] w-[2000px] `}>
-        <p className="text-white max-w-7xl ">Description Description Description Description Description
-        DescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescriptionDescription</p>       
-        </div> 
-        
-      </div>
-
+      
     </div>
   )
 
