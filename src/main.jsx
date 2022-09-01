@@ -9,9 +9,7 @@ import Login from './components/Login';
 
 import { TOP_ROUTE } from './constants/path';
 import './index.css'
-// 全局导入数据可视乎主题
-import { G2 } from '@ant-design/plots'
-import themeOptions from './g2-theme.json'
+
 
 // 异步导入
 const Datav = asyncComponent(() => import("./components/Datavisualization/index"))
@@ -19,8 +17,6 @@ const Datav = asyncComponent(() => import("./components/Datavisualization/index"
 import NotFoundPage from './components/NotFoundPage/index'
 // import Datav from './components/Datavisualization/index'
 
-const { registerTheme } = G2;
-registerTheme('custom-theme', themeOptions);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

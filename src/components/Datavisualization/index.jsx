@@ -17,8 +17,9 @@ const Datav = () =>
         <div className={`${styles.boxWidth}`}>
           <div className={`${styles.paddingY} flex flex-col md:flex-row `}>
               {/* 图1 */}
-              <div className='h-[400px] w-[600px] '>
-              <DemoLines/>
+              <div className='h-[600px] w-[800px] '>
+              <DemoMix/>
+              
               </div>
 
               <div className={`h-[400px] w-[600px] py-10 flex flex-col`}>
@@ -36,8 +37,8 @@ const Datav = () =>
 
           <div className={`${styles.paddingY} flex flex-col md:flex-row-reverse `}>
               {/* 图1 */}
-              <div className='h-[400px] w-[600px] '>
-              <DemoMix/>
+              <div className='h-[600px] w-[800px] '>
+              <DemoLines/>
               </div>
 
               <div className={`h-[400px] w-[600px] py-10 flex flex-col`}>

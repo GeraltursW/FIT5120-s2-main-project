@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Line } from '@ant-design/plots';
+import { G2, Line } from '@ant-design/plots';
 import data from './data.json';
+
+import themeOptions from './theme.json'
+const { registerTheme } = G2;
+registerTheme('custom-theme', themeOptions);
 
 const DemoLines = () => {
   

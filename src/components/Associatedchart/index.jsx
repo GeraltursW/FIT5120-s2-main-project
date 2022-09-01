@@ -2,6 +2,12 @@
 import data from './data.json';
 import { Mix, G2 } from '@ant-design/plots';
 
+// 导入数据可视乎主题
+
+import themeOptions from './theme.json'
+const { registerTheme } = G2;
+registerTheme('custom-theme', themeOptions);
+
 const DemoMix = () => {
   // const [data, setData] = useState({});
 
