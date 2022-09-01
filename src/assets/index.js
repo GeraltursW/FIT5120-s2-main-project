@@ -11,6 +11,7 @@ import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import Earth from "./Earth.png";
+import Rectangle from"./Rectangle.png";
 
 export {
   logo,
@@ -24,5 +25,6 @@ export {
   instagram,
   linkedin,
   twitter,
-  Earth
+  Earth,
+  Rectangle
 };

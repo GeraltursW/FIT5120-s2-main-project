@@ -2,14 +2,16 @@ import React from 'react'
 import DemoLines from '../Linechart'
 import DemoMix from '../Associatedchart'
 import styles from '../../style'
-import IntroDatav from '../IntroDatav'
+import IntroTips from '../IntroTips'
+import {close, logo, menu} from '../../assets'
+
 const Tips = () => 
  (
     <div className="bg-primary w-full overflow-hidden">
 
       <div className={`${styles.paddingX} ${styles.flexCenter} bg-darkgreen`}>
         <div className={`${styles.boxWidth}`}>
-            <IntroDatav/>
+            <IntroTips/>
         </div>  
       </div>
 

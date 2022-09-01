@@ -20,8 +20,8 @@ import Tips from './components/Tips';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // localStorage.getItem("idToken") !=null ? 
-  // <div>
+  localStorage.getItem("idToken") !=null ? 
+  <div>
      <React.StrictMode>
     <BrowserRouter>
       <Navbar/>
@@ -35,7 +35,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
-  //</div> : <Login/>
+  </div> : <Login/>
  
  
 )
