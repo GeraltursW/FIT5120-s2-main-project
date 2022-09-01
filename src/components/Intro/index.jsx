@@ -31,7 +31,7 @@ const Intro = () => {
             </div> */}
           </div>
           <h1 className="z-0 font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-            Usgae.
+            Usage
           </h1>
 
           {/* 这是描述的文字

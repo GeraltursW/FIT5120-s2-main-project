@@ -73,9 +73,9 @@ export const navLinks = [
       url:"/tips"
     },
     {
-      id: "estimation",
-      title: "Etimation",
-      url:"/estimation"
+      id: "Calculator",
+      title: "Calculator",
+      url:"/calculator"
     },
 ];
 
@@ -103,6 +103,7 @@ export const features = [
     id: "feature-1",
     icon: star,
     title: "Statistics",
+    url:"/statistics",
     content:
       "See how your electricity energy contribute to greenhouse emissions",
   },
@@ -110,13 +111,15 @@ export const features = [
     id: "feature-2",
     icon: star,
     title: "Tips",
+    url:"/tips",
     content:
       "Check out how you can reduce your energy usage and help save the planet and money at the same time.",
   },
   {
     id: "feature-3",
     icon: star,
-    title: "Estimation",
+    title: "Calculator",
+    url:"/calculator",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
   },

@@ -23,7 +23,9 @@ const Navbar = () => {
               {/* logo  logo图标*/}
               {/* className = " " 此为静态className */}
               {/* className = {``}此为动态className */}
-              <img src={logo} alt="hoobank" className="w-[124px] h-[32px]"/>
+              <img src={logo} alt="hoobank" className=" h-[32px]"/>
+              <p className={`${styles.paragraph} text-white`}> ElectroSaver</p>
+
 
               {/* 导航栏中的page页面 */}
               <ul className=" list-none sm:flex hidden justify-end items-center flex-1 ">

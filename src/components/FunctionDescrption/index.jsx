@@ -1,5 +1,6 @@
 import { features } from "../../constants/props";
 import styles, {layout} from "../../style";
+import { Link } from "react-router-dom";
 
 // 此为card的组件
 // 导入图标内容和文字
@@ -39,10 +40,23 @@ const FeatureCard = ({ icon, title, content, index }) => (
       </div>
   
       <div className={`${layout.sectionImg} flex-col`}>
+
         {/* 将常数映射到上面创建的card里 */}
-        {features.map((feature, index) => (
-          <FeatureCard key={feature.id} {...feature} index={index} />
-        ))}
+
+        {features.map((feature, index) => {
+                return (<Link to={feature.url}>
+                  {/* 点击卡片跳转页面 */}
+                          <FeatureCard key={feature.id} {...feature} index={index}>
+                          {/* <Link to="/">Home</Link> |{" "} */}
+                          </FeatureCard>
+                </Link>
+                  )
+                
+                })}
+
+
+
+
       </div>
     </section>
   );
