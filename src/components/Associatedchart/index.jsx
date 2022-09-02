@@ -81,6 +81,7 @@ const DemoMix = () => {
           },
         },
         options: {
+          
           data: data.pie,
           angleField: 'bill',
           colorField: 'area',
@@ -89,7 +90,7 @@ const DemoMix = () => {
           },
           radius: 1,
           label: {
-            type: 'outer',
+            type: 'inner',
             formatter: '{name}',
             offset: '-15%',
           },
@@ -102,6 +103,8 @@ const DemoMix = () => {
             },
           ],
         },
+
+        
       },
       {
         type: 'area',
@@ -115,10 +118,17 @@ const DemoMix = () => {
             y: 0.95,
           },
         },
+        
         options: {
           data: data.line,
           xField: 'time',
           yField: 'value',
+          yAxis: {
+            label: {
+              
+            }
+          },
+          
           seriesField: 'area',
           line: {},
           point: {

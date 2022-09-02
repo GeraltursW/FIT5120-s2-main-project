@@ -15,8 +15,10 @@ const DemoLines = () => {
     seriesField: 'name',
     yAxis: {
       label: {
-        formatter: (v) => `${(v / 10e8).toFixed(1)} B`,
+        
       },
+      
+     
     },
 
     // theme: 'dark',
