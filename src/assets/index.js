@@ -12,6 +12,9 @@ import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import Earth from "./Earth.png";
 import Rectangle from"./Rectangle.png";
+import Tv from"./tv.png";
+import Refrigerator from"./Refrigerator.png";
+import Airconditionar from "./airconditionar.png";
 
 export {
   logo,
@@ -26,5 +29,8 @@ export {
   linkedin,
   twitter,
   Earth,
-  Rectangle
+  Rectangle,
+  Tv,
+  Refrigerator,
+  Airconditionar
 };

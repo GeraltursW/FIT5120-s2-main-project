@@ -3,7 +3,7 @@ import DemoLines from '../Linechart'
 import DemoMix from '../Associatedchart'
 import styles from '../../style'
 import IntroTips from '../IntroTips'
-import {close, logo, menu} from '../../assets'
+import {Tv,Airconditionar,Refrigerator} from '../../assets'
 
 const Tips = () => 
  (
@@ -20,7 +20,7 @@ const Tips = () =>
           <div className={`${styles.paddingY} flex flex-col md:flex-row `}>
               {/* 图1 */}
               <div className='h-[600px] w-[800px] '>
-              <DemoMix/>
+              <img src={Airconditionar} alt="hoobank" className=" "/>
               
               </div>
 
@@ -41,7 +41,7 @@ const Tips = () =>
           <div className={`${styles.paddingY} flex flex-col md:flex-row-reverse `}>
               {/* 图1 */}
               <div className='h-[600px] w-[800px] '>
-              <DemoLines/>
+              <img src={Refrigerator} alt="hoobank" className=" "/>
               </div>
 
               <div className={`h-[400px] w-[600px] py-10 flex flex-col`}>
@@ -62,7 +62,7 @@ const Tips = () =>
           <div className={`${styles.paddingY} flex flex-col md:flex-row `}>
               {/* 图1 */}
               <div className='h-[600px] w-[800px] '>
-              <DemoMix/>
+              <img src={Tv} alt="hoobank" className=" "/>
               
               </div>
 

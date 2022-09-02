@@ -5,6 +5,7 @@ import { asyncComponent } from './components/AsyncComponent';
 import Home from './components/Home/index';
 import Navbar from './components/NavBar';
 import Login from './components/Login';
+import Calculator from './components/Calculator';
 
 import { TOP_ROUTE } from './constants/path';
 import './index.css'
@@ -20,8 +21,8 @@ import Tips from './components/Tips';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // localStorage.getItem("idToken") !=null ? 
-  // <div>
+  localStorage.getItem("idToken") !=null ? 
+  <div>
      <React.StrictMode>
     <BrowserRouter>
       <Navbar/>
@@ -31,11 +32,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/" element={<Login/>}></Route>
           <Route path="*" element={<NotFoundPage/>}></Route>
           <Route path="/tips" element={<Tips/>}></Route>
+          <Route path="/calculator" element={<Calculator/>}></Route>
+          
 
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
-  /* </div> : <Login/> */
+  </div> : <Login/> 
  
  
 )
