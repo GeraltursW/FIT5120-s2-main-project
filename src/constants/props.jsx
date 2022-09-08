@@ -71,29 +71,24 @@ export const navLinks = [
       id: "tips",
       title: "Tips",
       url:"/tips"
-    },
-    {
-      id: "Calculator",
-      title: "Calculator",
-      url:"/calculator"
-    },
+    }
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "of emissions is from electricity production ",
+    title: "of greenhouse gas emissions in Australia is from electricity production ",
     value: " 37% ",
   },
   {
     id: "stats-2",
-    title: " tonnes greenhouse gas per household per year",
+    title: " tonnes of greenhouse gas emissions per household per year",
     value: ">18",
   },
   {
     id: "stats-3",
-    title: "average electricity bill for victorian households",
-    value: "$1290",
+    title: "national average electricity bill for Australian households",
+    value: "$1645",
   },
 ];
 
@@ -114,15 +109,7 @@ export const features = [
     url:"/tips",
     content:
       "Check out how you can reduce your energy usage and help save the planet and money at the same time.",
-  },
-  {
-    id: "feature-3",
-    icon: star,
-    title: "Calculator",
-    url:"/calculator",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
+  }
 ];
 
 

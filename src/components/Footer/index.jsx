@@ -27,11 +27,11 @@ const Footer = () => (
 
       <div className="flex flex-row md:mt-0 mt-6 justify-between">
         <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
-        <p className={`${styles.paragraph} mt-4 text-white z-0`}>
+        {/* <p className={`${styles.paragraph} mt-4 text-white z-0`}>
               Qiang Tang   ：   26567881 &nbsp; &nbsp; &nbsp;Qiang Tang   ：   26567881<br/>
               Qiang Tang   ：   26567881 &nbsp; &nbsp; &nbsp;Qiang Tang   ：   26567881
 
-          </p>
+          </p> */}
         
           {/* {socialMedia.map((social, index) => (
             <img

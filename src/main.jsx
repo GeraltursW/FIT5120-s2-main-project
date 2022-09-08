@@ -29,12 +29,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
           <Route path="/home" element={<Home/>} ></Route>
           <Route path="/statistics" element={<Datav/>}></Route>
-          <Route path="/" element={<Login/>}></Route>
+          <Route path="/" element={<Home/>}></Route>
           <Route path="*" element={<NotFoundPage/>}></Route>
           <Route path="/tips" element={<Tips/>}></Route>
           <Route path="/calculator" element={<Calculator/>}></Route>
-          
-
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
