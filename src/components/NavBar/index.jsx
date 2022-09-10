@@ -15,7 +15,7 @@ const Navbar = (props) => {
   const [toggle, setToogle] = useState(false);
 console.log(props)
   return (
-    <div className="bg-footer sticky top-0 z-50 w-full overflow-hidden ">
+    <div className="bg-footer sticky top-0 z-50 w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>     
         <div className={`${styles.boxWidth} ` }>
           <nav className = " bg-gradient-to-r w-full flex py-6 justify-between items-center navbar">

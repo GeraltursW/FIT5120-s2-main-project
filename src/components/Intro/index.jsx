@@ -6,9 +6,7 @@ import { Earth } from "../../assets";
 const Intro = () => {
   return (
     <div>
-      
-      <section id="home" className={` flex md:flex-row flex-col ${styles.paddingY}`}>
-      
+      <section id="home" className={` flex md:flex-row flex-col pt-[200px]`}>
         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 `}>
 
           {/* 此为20%显示 */}
@@ -59,9 +57,7 @@ const Intro = () => {
         <div className={`ss:hidden ${styles.flexCenter}`}>
           <GetStarted />
         </div> */}
-
       </section>
-    
     </div>
   );
 };
