@@ -110,6 +110,16 @@ export const features = [
     content:
       "Check out how you can reduce your energy usage and help save the planet and money at the same time.",
   }
+  ,
+  {
+    id: "feature-3",
+    icon: star,
+    title: "Calculator",
+    url:"/calculator",
+    content:
+      "Check out how you can reduce your energy usage and help save the planet and money at the same time.",
+  }
+  
 ];
 
 

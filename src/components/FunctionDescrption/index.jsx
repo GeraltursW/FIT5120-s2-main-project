@@ -44,9 +44,9 @@ const FeatureCard = ({ icon, title, content, index }) => (
         {/* 将常数映射到上面创建的card里 */}
 
         {features.map((feature, index) => {
-                return (<Link to={feature.url}>
+                return (<Link to={feature.url} key={feature.id} >
                   {/* 点击卡片跳转页面 */}
-                          <FeatureCard key={feature.id} {...feature} index={index}>
+                          <FeatureCard  {...feature} index={index}>
                           {/* <Link to="/">Home</Link> |{" "} */}
                           </FeatureCard>
                 </Link>

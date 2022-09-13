@@ -10,10 +10,10 @@ import Item from "antd/lib/list/Item";
 
 
 // 导航栏组件
-const Navbar = (props) => {
+const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToogle] = useState(false);
-console.log(props)
+
   return (
     <div className="bg-footer sticky top-0 z-50 w-full overflow-hidden ">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>     

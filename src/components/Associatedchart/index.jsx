@@ -107,7 +107,7 @@ const DemoMix = () => {
         
       },
       {
-        type: 'area',
+        type: 'line',
         region: {
           start: {
             x: 0,

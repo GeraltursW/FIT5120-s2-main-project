@@ -3,9 +3,8 @@ import DemoLines from '../Linechart'
 import DemoMix from '../Associatedchart'
 import styles from '../../style'
 import IntroDatav from '../IntroDatav'
-const Datav = (props) => {
-  console.log("props",props)
-return <>
+const Datav = () => (
+
     <div className="bg-primary w-full overflow-hidden">
 
       <div className={`${styles.paddingX} ${styles.flexCenter} bg-primary`}>
@@ -55,19 +54,14 @@ return <>
 
 Clicking on pieces of the pie chart shows a sector's quarterly emission data.</p>
               </div>
-              
           </div>
-
         </div>  
-      </div>
+      </div>  
 
-      
-
-      
     </div>
-    </>
   
-} 
+);
+
 
 
 export default Datav
