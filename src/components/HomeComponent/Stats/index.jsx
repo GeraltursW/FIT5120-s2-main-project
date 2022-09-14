@@ -1,5 +1,5 @@
-import { stats } from "../../constants/props";
-import styles from '../../style'
+import { stats } from "../../../constants/props";
+import styles from '../../../style'
 
 
 const Stats = () => (

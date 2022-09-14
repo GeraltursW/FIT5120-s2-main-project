@@ -1,9 +1,8 @@
 import React from 'react'
-import DemoLines from '../Linechart'
-import DemoMix from '../Associatedchart'
-import styles from '../../style'
+
+import styles from '../../../style'
 import IntroTips from '../IntroTips'
-import {Tv,Airconditionar,Refrigerator} from '../../assets'
+import {Tv,Airconditionar,Refrigerator} from '../../../assets'
 
 const Tips = () => 
  (

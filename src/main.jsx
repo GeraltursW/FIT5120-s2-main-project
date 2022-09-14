@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { asyncComponent } from './components/AsyncComponent';
-import Home from './components/Home/index';
+import { asyncComponent } from './components/StatisticsPage/AsyncComponent';
+import Home from './components/HomeComponent/Home/index';
 import Navbar from './components/NavBar';
 import Login from './components/Login';
 import Calculator from './components/Calculator';
-import Datav from './components/Datavisualization';
+import Datav from './components/StatisticsPage/Datavisualization';
 import { TOP_ROUTE } from './constants/path';
 import './index.css'
 
@@ -15,7 +15,7 @@ import './index.css'
 // const Datav = asyncComponent(() => import("./components/Datavisualization/index"))
 
 import NotFoundPage from './components/NotFoundPage/index'
-import Tips from './components/Tips';
+import Tips from './components/TipsPage/Tips';
 // import Datav from './components/Datavisualization/index'
 
 

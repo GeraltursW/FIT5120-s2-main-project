@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import styles from '../../style'
+import styles from '../../../style'
 import Intro from '../Intro/index'
 import Stats from '../Stats'
 import Description from '../FunctionDescrption'
 import Footer from '../Footer'
-import videobg from"../../assets/back-video4.mp4"
+import videobg from"../../../assets/back-video4.mp4"
 
 export default class Home extends Component {
   

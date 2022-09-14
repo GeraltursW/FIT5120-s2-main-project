@@ -1,5 +1,5 @@
-import styles from "../../style";
-import { Earth } from "../../assets";
+import styles from "../../../style";
+
 // import GetStarted from "../GetStarted/index";
 
 

@@ -1,10 +1,10 @@
-import styles from "../../style";
-import { Earth } from "../../assets";
+import styles from "../../../style";
+
 
 // import GetStarted from "../GetStarted/index";
 
 
-const IntroTips = () => {
+const IntroDatav = () => {
   return (
     <div>  
       <section id="home" className={` flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -13,15 +13,15 @@ const IntroTips = () => {
         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 `}>
           <div className="flex flex-row justify-between items-center w-full z-0">
             <h1 className="z-0 flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] ">
-              Reduce  <br className="sm:block hidden" />{" "}
-              <span className="z-0 text-gradient">Electricity Energy</span>{" "}
+              Australian <br className="sm:block hidden" />{" "}
+              <span className="z-0 text-gradient">Energy</span>{" "}
             </h1>
             {/* <div className="ss:flex hidden md:mr-4 mr-0">
               <GetStarted />
             </div> */}
           </div>
           <h1 className="z-0 font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          usage Tips
+            Statistics
           </h1>
         </div>
 
@@ -44,4 +44,4 @@ const IntroTips = () => {
   );
 };
 
-export default IntroTips;
+export default IntroDatav;

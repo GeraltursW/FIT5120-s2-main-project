@@ -1,5 +1,5 @@
-import { features } from "../../constants/props";
-import styles, {layout} from "../../style";
+import { features } from "../../../constants/props";
+import styles, {layout} from "../../../style";
 import { Link } from "react-router-dom";
 
 // 此为card的组件

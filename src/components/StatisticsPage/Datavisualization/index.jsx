@@ -1,7 +1,7 @@
 import React from 'react'
 import DemoLines from '../Linechart'
-import DemoMix from '../Associatedchart'
-import styles from '../../style'
+import DemoMix from '../../StatisticsPage/Associatedchart'
+import styles from '../../../style'
 import IntroDatav from '../IntroDatav'
 const Datav = () => (
 
