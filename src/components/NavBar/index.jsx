@@ -6,7 +6,7 @@ import { navLinks } from '../../constants/props'
 //导入样式
 import styles from '../../style'
 import { Link } from "react-router-dom";
-import Item from "antd/lib/list/Item";
+
 
 
 // 导航栏组件
@@ -33,9 +33,7 @@ const Navbar = () => {
                 return (
                   <li
                   key={nav.id}
-                  className={`font-poppins font-normal cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-dimWhite"
-                  } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
+                  className={`font-poppins font-normal cursor-pointer text-[16px] ${active === nav.title ? "text-white" : "text-dimWhite"} ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
                   onClick={() => setActive(nav.title)}>
 
                       {/* 点击导航 */}
@@ -44,7 +42,6 @@ const Navbar = () => {
                       </Link>
 
                       {/* <Link to="/">Home</Link> |{" "} */}
-
                   </li>)
                 
                 })}

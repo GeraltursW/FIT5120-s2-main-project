@@ -3,7 +3,13 @@ import {
   facebook,
   instagram,
   linkedin,
-  twitter,  } from "../assets";
+  twitter, 
+  Refrigerator,
+  Tv,
+  Airconditionar,
+ } from "../assets";
+
+ import AirConditionerForm from "../components/TipsPage/AirConditionerForm";
 
 
 export const socialMedia = [
@@ -118,7 +124,35 @@ export const features = [
     url:"/calculator",
     content:
       "Check out how you can reduce your energy usage and help save the planet and money at the same time.",
-  }
+  }];
+
+
+  export const appliances = [
+    {
+      id: "appliances-1",
+      image: Airconditionar,
+      title: "Air Conditioner",
+      questionnaire: <AirConditionerForm/>,
+      content:
+        "description description description description description description description description",
+    },
+    {
+      id: "appliances-2",
+      image: Tv,
+      title: "Tv",
+      questionnaire: <AirConditionerForm/>,
+      content:
+        "description description description description description description description description",
+    },
+    {
+      id: "appliances-3",
+      image: Refrigerator,
+      title: "Refrigerator",
+      questionnaire: <AirConditionerForm/>,
+      content:
+        "description description description description description description description description",
+    },
+  
   
 ];
 
