@@ -7,7 +7,7 @@ const Intro = () => {
   return (
     <div>
       
-      <section id="home" className={`z-20 flex md:flex-row flex-col ${styles.paddingY}`}>
+      <section id="home" className={` flex md:flex-row flex-col ${styles.paddingY}`}>
       
         <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 `}>
 
@@ -23,15 +23,15 @@ const Intro = () => {
           {/* 这是  save your electricity energy 的 文字 */}
           <div className="flex flex-row justify-between items-center w-full z-0">
             <h1 className="z-0 flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] ">
-              Save Your <br className="sm:block hidden" />{" "}
-              <span className="z-0 text-gradient">Electricity energy</span>{" "}
+            Optimize Your  <br className="sm:block hidden" />{" "}
+              <span className="z-0 text-gradient">Energy Usage </span>{" "}
             </h1>
             {/* <div className="ss:flex hidden md:mr-4 mr-0">
               <GetStarted />
             </div> */}
           </div>
           <h1 className="z-0 font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-            Usgae.
+          and Save the Planet
           </h1>
 
           {/* 这是描述的文字

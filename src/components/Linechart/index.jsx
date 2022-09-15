@@ -1,22 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Line } from '@ant-design/plots';
+import { G2, Line } from '@ant-design/plots';
+import data from './data.json';
+
+import themeOptions2 from './theme2.json'
+const { registerTheme } = G2;
+registerTheme('custom-theme2', themeOptions2);
 
 const DemoLines = () => {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    asyncFetch();
-  }, []);
-
-  const asyncFetch = () => {
-    fetch('https://gw.alipayobjects.com/os/bmw-prod/e00d52f4-2fa6-47ee-a0d7-105dd95bde20.json')
-      .then((response) => response.json())
-      .then((json) => setData(json))
-      .catch((error) => {
-        console.log('fetch data failed', error);
-      });
-  };
-
+  
   const config = {
     data,
     xField: 'year',
@@ -24,12 +15,14 @@ const DemoLines = () => {
     seriesField: 'name',
     yAxis: {
       label: {
-        formatter: (v) => `${(v / 10e8).toFixed(1)} B`,
+        
       },
+      
+     
     },
 
     // theme: 'dark',
-    theme: 'custom-theme',
+    theme: 'custom-theme2',
     legend: {
       position: 'top',
     },
