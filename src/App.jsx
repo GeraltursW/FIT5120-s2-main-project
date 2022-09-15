@@ -5,9 +5,6 @@ function App() {
       <div className={`${styles.paddingX} ${styles.flexCenter} `}>
        
       </div>
-
-
-     
     </div>
   )
 }
