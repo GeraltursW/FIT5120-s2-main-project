@@ -5,17 +5,17 @@ import { footerLinks, socialMedia } from "../../constants/props";
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-        {/* logo和描述 */}
+        {/* logo和描述
       <div className="flex-[1] flex flex-col justify-start mr-10">
-        {/* <img
+        <img
           src={logo}
           alt="hoobank"
           className="w-[266px] h-[72.14px] object-contain z-0"
-        /> */}
+        />
         <p className={`${styles.paragraph} mt-4 max-w-[312px] z-0`}>
             Let's protect our only planet together
         </p>
-      </div>
+      </div> */}
     {/* 小组描述 */}
       
     </div>
@@ -27,13 +27,11 @@ const Footer = () => (
 
       <div className="flex flex-row md:mt-0 mt-6 justify-between">
         <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
-        <p className={`${styles.paragraph} mt-4 max-w-[312px] z-0`}>
-              Qiang Tang   ：   26567881<br/>
-              Qiang Tang   ：   26567881<br/>
-              Qiang Tang   ：   26567881<br/>
-              Qiang Tang   ：   26567881
+        {/* <p className={`${styles.paragraph} mt-4 text-white z-0`}>
+              Qiang Tang   ：   26567881 &nbsp; &nbsp; &nbsp;Qiang Tang   ：   26567881<br/>
+              Qiang Tang   ：   26567881 &nbsp; &nbsp; &nbsp;Qiang Tang   ：   26567881
 
-          </p>
+          </p> */}
         
           {/* {socialMedia.map((social, index) => (
             <img

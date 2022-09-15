@@ -1,9 +1,10 @@
-
-
 function App() {
-  return (
 
-    <div>
+  return (
+    <div >
+      <div className={`${styles.paddingX} ${styles.flexCenter} `}>
+       
+      </div>
     </div>
   )
 }

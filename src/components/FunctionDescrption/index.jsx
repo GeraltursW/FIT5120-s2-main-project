@@ -1,56 +1,54 @@
-import { features } from "../../constants/props";
-import { Link } from "react-router-dom";
+import styles from "../../style";
+import { logo } from "../../assets";
+import { footerLinks, socialMedia } from "../../constants/props";
 
-import styles, {layout} from "../../style";
-
-// 此为card的组件
-// 导入图标内容和文字
-const FeatureCard = ({ icon, title, content, index,url }) => (
-    <div className={`flex flex-row cursor-pointer p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
-      <Link to={url}>
-       {/* 加图标 */}
-        <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-yellowgreen`}>
-          <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
-        </div>
-        {/* 加标题 */}
-        <div className="flex-1 flex flex-col ml-3">
-          <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
-            {title}
-          </h4>
-
-          {/* 加文字描述 */}
-        
-          <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
-            {content}
-          </p>
-      </div>
-      </Link>
-    </div>
-  );
-  // 此为整个功能描述的大组件
-  const Description = () =>  (
-    <section id="features" className={layout.section}>
-      <div className={layout.sectionInfo}>
-        <h2 className={`${styles.heading2} z-0`}>
-          Introduction
-        </h2>
-        <p className={`${styles.paragraph} z-0 max-w-[470px] mt-5`}>
-        Australian households generate about one fifth of Australia's greenhouse emissions which are causing climate change. Many households also struggle to pay their energy bills.
-        <br/>
-        <br/>
-        We are here to help international students optimize their energy usage so as to reduce their carbon emissions and energy bills. 
+const Footer = () => (
+  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
+        {/* logo和描述
+      <div className="flex-[1] flex flex-col justify-start mr-10">
+        <img
+          src={logo}
+          alt="hoobank"
+          className="w-[266px] h-[72.14px] object-contain z-0"
+        />
+        <p className={`${styles.paragraph} mt-4 max-w-[312px] z-0`}>
+            Let's protect our only planet together
         </p>
+      </div> */}
+    {/* 小组描述 */}
+      
+    </div>
 
+    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
+      {/* <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
+        Copyright Ⓒ 2022 HooBank. All Rights Reserved.
+      </p> */}
+
+      <div className="flex flex-row md:mt-0 mt-6 justify-between">
+        <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+        {/* <p className={`${styles.paragraph} mt-4 text-white z-0`}>
+              Qiang Tang   ：   26567881 &nbsp; &nbsp; &nbsp;Qiang Tang   ：   26567881<br/>
+              Qiang Tang   ：   26567881 &nbsp; &nbsp; &nbsp;Qiang Tang   ：   26567881
+
+          </p> */}
+        
+          {/* {socialMedia.map((social, index) => (
+            <img
+              key={social.id}
+              src={social.icon}
+              alt={social.id}
+              className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+                index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+              }`}
+              onClick={() => window.open(social.link)}
+            />
+         
+        ))} */}
+         </div>
       </div>
-  
-      <div className={`${layout.sectionImg} flex-col`}>
-        {/* 将常数映射到上面创建的card里 */}
-        {features.map((feature, index) => (
-          <FeatureCard key={feature.id} {...feature} index={index} />
-        ))}
-      </div>
-    </section>
-  );
-  
-  export default Description;
-  
+    </div>
+  </section>
+);
+
+export default Footer;
