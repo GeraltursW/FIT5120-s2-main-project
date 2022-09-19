@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
+
   theme: {
     extend: {
       colors: {
@@ -12,7 +13,7 @@ module.exports = {
         darkgreen: '#21331E',
         lightgreen: '#3D8532',
         yellowgreen:'#A99D30',
-        yellow: '#ffc82c',
+        yellow: '#fde68a',
         gray: '#8492a6',
         footer:'#11260E'
       },
@@ -32,4 +33,5 @@ module.exports = {
     },
   },
   plugins: [],
+ 
 };

@@ -19,9 +19,9 @@ const Datav = () => (
               {/* 图1 */}
               <div className='h-[600px] w-[800px] '>
               <DemoLines/>
-              
               </div>
 
+              {/* 描述 */}
               <div className={`h-[400px] w-[600px] py-10 flex flex-col`}>
                 <h1 className='font-poppins font-semibold text-right text-white text-[25px] leading-[23.4px] mb-1'>Contribution to emissions</h1> 
                 <p className='font-poppins font-semibold text-right pt-10 text-dimWhite text-[18px] leading-[23.4px] mb-1'> 

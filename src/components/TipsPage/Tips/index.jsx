@@ -6,7 +6,7 @@ import { appliances } from '../../../constants/props';
 import AirConditionerForm from '../AirConditionerForm';
 import TvForm from '../TvForm';
 import RefrigeratorForm from '../RefrigeratorForm';
-
+import './card.css'
 
 
 const ApplianceCard = ({title, image, content, questionnaire}) => {
@@ -26,18 +26,15 @@ const ApplianceCard = ({title, image, content, questionnaire}) => {
         <p className="font-poppins font-normal text-white text-[16px] leading-[24px] py-10">
           {content}
         </p>
+
+        <button type="button" className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Click me</button>
       </div>
-
-
     </div>
   )
 }
 
-
-
 const Tips = () => {
   const [formOpen, setFormOpen] = useState();
-
   const formswtich = () =>{
     switch(formOpen) {
       case "Air Conditioner":   return <AirConditionerForm setFormModal={setFormOpen}/> ; 
@@ -45,11 +42,9 @@ const Tips = () => {
       case "Refrigerator": return <RefrigeratorForm setFormModal={setFormOpen}/>;
     }
   }
-  
- 
-   
+
   return (
-    <div className="bg-primary w-full overflow-hidden">
+    <div className="bg-primary w-full overflow-hidde">
       <div>{formswtich()}</div>
       
       <div className={`${styles.paddingX} ${styles.flexCenter} bg-darkgreen`}>
@@ -60,22 +55,25 @@ const Tips = () => {
 
       
       
-      <div className={` ${styles.flexCenter} bg-lightgreen `}>
-        <div className={`${styles.boxWidth} overflow-x-auto`}>
-          <div className={`${styles.paddingY} flex flex-col md:flex-row `}>
-            <div className={`${layout.sectionImg} flex-row `}>
-            {appliances.map((appliance, index) => {
-                    return (
-                    <div  key={appliance.id} onClick={()=>{ setFormOpen(appliance.title)}} >
-                              <ApplianceCard   {...appliance} index={index}>
-                              </ApplianceCard>
+      <div className={` ${styles.flexCenter} ${styles.paddingX}  bg-lightgreen `}>
+        <div className={`${styles.boxWidth} `}>
+          
+            <div className={`  ${styles.paddingY} flex-row ` }>
 
-                            
-                    </div>
-                      )     
-                    })}
+             <div className="slider">
+                <div className="slide-track">
+                 
+                  {appliances.map((appliance, index) => {
+                        return (
+                          <div key={appliance.id} onClick={()=>{ setFormOpen(appliance.title)}} >
+                                  <ApplianceCard   {...appliance} index={index}>
+                                  </ApplianceCard>         
+                          </div>)})}
+
+                  </div>      
+              </div>
             </div>
-          </div>
+          
         </div>  
       </div>    
 
