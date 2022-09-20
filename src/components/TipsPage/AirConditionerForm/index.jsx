@@ -3,10 +3,11 @@ import styles from '../../../style'
 import { CloseOutlined } from '@ant-design/icons'
 import { Airconditionar } from '../../../assets'
 import Introduction from './Introduction'
-import DropDown from './DropDown'
+import TopAC from './TopAC'
 import Inputform from './Inputform'
 import Result from './Result'
 import MultiChoice from './MultiChoice'
+
 
 const questions = [
   {
@@ -24,9 +25,10 @@ const questions = [
   {
     title: "3. How many kWh is your AC?",
     options: [
-      { value: 1, text: "average" },
-      { value: 2, text: "Around 2" },
-      { value: 3, text: "Around 3" },
+      { value: 3, text: "average" },
+      { value: 3, text: "Around 3 kw" },
+      { value: 5, text: "Around 5 kw" },
+      { value: 7, text: "Around 7 kw" },
     ]
   },
   {
@@ -60,6 +62,7 @@ const AirConditionerForm = ({ setFormModal }) => {
       {step === 4 && <MultiChoice {...questions[2]} onChange={(value) => onChange('three', value)} />}
       {step === 5 && <MultiChoice {...questions[3]} onChange={(value) => onChange('four', value)} />}
       {step === 6 && <Result result={result} /> }
+      {step === 7 && <TopAC /> }
 
 
       {/* 透明背景 */}
@@ -85,7 +88,7 @@ const AirConditionerForm = ({ setFormModal }) => {
                     <img src={Airconditionar} alt="hoobank" className=" " />
                   </div>
                   <div className={`h-[400px] w-[600px] py-10 flex flex-col`}>
-                    <h1 className='font-poppins font-semibold text-right text-white text-[25px] leading-[23.4px] mb-1'>Air conditioner</h1>
+                    <h1 className='font-poppins font-semibold text-right text-white text-[25px] leading-[23.4px] mb-1'>Air conditioner Tips</h1>
                     <p className='font-poppins font-semibold text-left pt-10 text-dimWhite text-[18px] leading-[23.4px] mb-1'>
                       Set the temperature at <span className='text-red-300'>26C</span> for cooling in <span className='text-red-300'>summer</span> and <span className='text-red-300'>20C</span> for heating in <span className='text-red-300'>winter</span> to minimise energy usage. Setting the temperature closer to the ambient temperature will reduce your energy usage significantly. A small change of <span className='text-red-300'>one degree</span>can save you around <span className='text-red-300'>10%</span>from your cooling/heating costs.<br /><br /><br /><br />
                       Avoid <span className='text-red-300'>turning on</span> and <span className='text-red-300'>off</span> your air conditioning when at home. <span className='text-red-300'>Freguent switching</span>not only causes a <span className='text-red-300'>higher energy bill</span> but also may add <span className='text-red-300'>extra strain</span> on your unit.</p>
@@ -107,7 +110,7 @@ const AirConditionerForm = ({ setFormModal }) => {
 
             {step === 6 && (
             <div className='flex justify-center'>
-              <button type="button"  onClick={() => { setStep(step + 1) }} className=" w-[300px] h-[40px] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Top 10 energy Air Condition</button>
+              <button type="button"  onClick={() => { setStep(step + 1) }} className=" w-[300px] h-[40px] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Top 5 energy Air Condition</button>
             </div>)}
 
           {/* 前讲后退按钮 */}

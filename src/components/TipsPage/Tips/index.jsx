@@ -7,6 +7,7 @@ import AirConditionerForm from '../AirConditionerForm';
 import TvForm from '../TvForm';
 import RefrigeratorForm from '../RefrigeratorForm';
 import './card.css'
+import EnergyCompany from "./EnergyCompany";
 
 
 const ApplianceCard = ({title, image, content, questionnaire}) => {
@@ -75,7 +76,13 @@ const Tips = () => {
             </div>
           
         </div>  
+        
       </div>    
+      <div className={`${styles.paddingX} ${styles.flexCenter} bg-darkgreen`}>
+        <div className={`${styles.boxWidth}`}>
+            <EnergyCompany/>
+        </div>  
+      </div>
 
 
 
