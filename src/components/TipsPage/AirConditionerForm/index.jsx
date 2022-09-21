@@ -52,7 +52,10 @@ const AirConditionerForm = ({ setFormModal }) => {
   }
   const questionlist = Object.values(form)
   console.dir(form)
-  const result = parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.0011;
+  const result =Math.round( parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.0011 *1000)/1000;
+  const result1 = parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.55;
+  const result2 = parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.03;
+  const result3 = parseInt(questionlist[2]) * parseInt(questionlist[3]) * 134;
 
   return (
     <div>
@@ -61,7 +64,7 @@ const AirConditionerForm = ({ setFormModal }) => {
       {step === 3 && <Inputform  {...questions[1]} onChange={(value) => onChange('two', value)} />}
       {step === 4 && <MultiChoice {...questions[2]} onChange={(value) => onChange('three', value)} />}
       {step === 5 && <MultiChoice {...questions[3]} onChange={(value) => onChange('four', value)} />}
-      {step === 6 && <Result result={result} /> }
+      {step === 6 && <Result result={result} result1={result1} result2={result2} result3={result3} /> }
       {step === 7 && <TopAC /> }
 
 

@@ -23,10 +23,10 @@ const TopAC = () => {
                 Star: {star}
               </h4>
               <h4 className=" mt-[20px] font-poppins font-semibold text-blue-800 text-[18px] leading-[23.4px] mb-1">
-                Cool Enenergy consumption: {coolenergy}
+                Cool Energy consumption: {coolenergy}
               </h4>
               <h4 className=" mt-[20px] font-poppins font-semibold text-red-800 text-[18px] leading-[23.4px] mb-1">
-              Heat Enenergy consumption:: {heatenergy}
+              Heat Energy consumption:: {heatenergy}
               </h4>
             </div>
 
@@ -39,7 +39,7 @@ const TopAC = () => {
     <div className='flex justify-center items-center'>
 
     <div className='p-[100px] mt-[880px] w-[1000px] bg-primary h-[600px] fixed bg- z-50 flex justify-center '>
-        <h1 className='text-green-200 text-xl '> Top 5 Energy Air Conditoner </h1>
+        <h1 className='text-green-200 text-xl '> Top 5 Energy Air Conditioner </h1>
       <div className='w-[700px] h-[600px] fixed flex  items-center flex-col overflow-auto' >
         {/* 题目 */}
         

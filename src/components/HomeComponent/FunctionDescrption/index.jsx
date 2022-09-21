@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 // 此为card的组件
 // 导入图标内容和文字
 const FeatureCard = ({ icon, title, content, index }) => (
-    <div className={`flex flex-row cursor-pointer p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
+    <div className={`bg-green-900 flex flex-row cursor-pointer p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"}  feature-card`}>
        {/* 加图标 */}
-      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
+      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} `}>
         <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
       </div>
       {/* 加标题 */}

@@ -5,7 +5,7 @@ import styles from "../../../style";
 
 const Intro = () => {
   return (
-    <div>
+    <div className="w-sreen h-screen">
       
       <section id="home" className={` flex md:flex-row flex-col ${styles.paddingY}`}>
       

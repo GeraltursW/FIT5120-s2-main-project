@@ -138,7 +138,7 @@ export const features = [
     {
       id: "appliances-2",
       image: Tv,
-      title: "Tv",
+      title: "TV",
       
       content:
       "Find tips， C02 Emissons, and Recommondation appliances",    },
@@ -149,27 +149,8 @@ export const features = [
      
       content:
       "Find tips， C02 Emissons, and Recommondation appliances",    },
-    {
-      id: "appliances-4",
-      image: Airconditionar,
-      title: "Air Conditioner",
-     
-      content:
-      "Find tips， C02 Emissons, and Recommondation appliances",    },
-    {
-      id: "appliances-5",
-      image: Tv,
-      title: "Tv",
-      
-      content:
-      "Find tips， C02 Emissons, and Recommondation appliances",    },
-    {
-      id: "appliances-6",
-      image: Refrigerator,
-      title: "Refrigerator",
-      
-      content:
-      "Find tips， C02 Emissons, and Recommondation appliances",    },
+    
+
 ];
 
 

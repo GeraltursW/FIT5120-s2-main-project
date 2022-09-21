@@ -48,7 +48,7 @@ const EnergyCompany = () => {
         <div>
             
                 <p className="mt-[100px] font-poppins font-normal text-white text-[16px] leading-[24px]">
-                <span className='text-white text-6xl '> Top 5 Greenest Electricity Provider in Victoria" or something  </span></p>
+                <span className='text-white text-6xl '> Top 5 Greenest Electricity Provider in Victoria </span></p>
 
             {erngycompany.map((ep, index) => {
                 return (
