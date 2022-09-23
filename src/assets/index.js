@@ -15,8 +15,27 @@ import Rectangle from"./Rectangle.png";
 import Tv from"./tv.png";
 import Refrigerator from"./Refrigerator.png";
 import Airconditionar from "./airconditionar.png";
+import AirConditioner1 from "./airconditoner1.jpg";
+import Diamondenergy from "./diamondenergy.png"
+import Momentum from "./momentum.png"
+import EnergyLocal from"./energylocals.png"
+import Indigopower from"./indigopower.png"
+import Copower from"./copower.png"
+import Amber from "./amber.png"
+import Powershop from "./powershop.png"
+import Lumo from "./lumo.png"
+import Redenergy from "./redenergy.png"
+import Tago from "./tago.png"
 
 export {
+  Tago,
+  Redenergy,
+  Lumo,
+  Powershop,
+  Amber,
+  Copower,
+  Indigopower,
+  EnergyLocal,
   logo,
   star,
   menu,
@@ -32,5 +51,8 @@ export {
   Rectangle,
   Tv,
   Refrigerator,
-  Airconditionar
+  Airconditionar,
+  AirConditioner1,
+  Diamondenergy,
+  Momentum
 };

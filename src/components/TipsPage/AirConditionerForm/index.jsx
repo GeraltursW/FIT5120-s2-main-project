@@ -11,7 +11,7 @@ import MultiChoice from './MultiChoice'
 
 const questions = [
   {
-    title: "1.what is your current seaon now ?",
+    title: "1.What season is it?",
     options: [
       { value: "Spring", text: "Spring" },
       { value: "Summer", text: "Summer" },
@@ -20,12 +20,12 @@ const questions = [
     ]
   },
   {
-    title: "2.what degree are you setting your AC at ",
+    title: "2.What temperature are you setting your AC at? ",
   },
   {
     title: "3. How many kWh is your AC?",
     options: [
-      { value: 3, text: "average" },
+      { value: 3, text: "Average" },
       { value: 3, text: "Around 3 kw" },
       { value: 5, text: "Around 5 kw" },
       { value: 7, text: "Around 7 kw" },
@@ -35,9 +35,9 @@ const questions = [
     title: "4.How long are you planning to use it",
     options: [
       { value: 1, text: "1 hour" },
-      { value: 2, text: "2 hour" },
-      { value: 3, text: "3 hour" },
-      { value: 3, text: "4 hour" },
+      { value: 2, text: "2 hours" },
+      { value: 3, text: "3 hours" },
+      { value: 3, text: "4 hours" },
     ]
   },
 ]
@@ -52,10 +52,10 @@ const AirConditionerForm = ({ setFormModal }) => {
   }
   const questionlist = Object.values(form)
   console.dir(form)
-  const result =Math.round( parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.0011 *1000)/1000;
-  const result1 = parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.55;
-  const result2 = parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.03;
-  const result3 = parseInt(questionlist[2]) * parseInt(questionlist[3]) * 134;
+  const result = Math.round(parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.0011 * 1000) / 1000 * 1000;
+  const result1 = Math.round(parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.55 * 1000) / 1000
+  const result2 = Math.round(parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.03 * 1000) / 1000
+  const result3 = Math.round(parseInt(questionlist[2]) * parseInt(questionlist[3]) * 134 * 1000) / 1000
 
   return (
     <div>
@@ -64,14 +64,14 @@ const AirConditionerForm = ({ setFormModal }) => {
       {step === 3 && <Inputform  {...questions[1]} onChange={(value) => onChange('two', value)} />}
       {step === 4 && <MultiChoice {...questions[2]} onChange={(value) => onChange('three', value)} />}
       {step === 5 && <MultiChoice {...questions[3]} onChange={(value) => onChange('four', value)} />}
-      {step === 6 && <Result result={result} result1={result1} result2={result2} result3={result3} /> }
-      {step === 7 && <TopAC /> }
+      {step === 6 && <Result result={result} result1={result1} result2={result2} result3={result3} />}
+      {step === 7 && <TopAC />}
 
 
       {/* 透明背景 */}
       <div className={` z-10 py-0 px-0 w-full h-full fixed opacity-60 object-cover  bg-primary`} />
 
-      <div className={` ${styles.paddingX} ${styles.flexStart} py-[100px] z-20 flex  px-0 w-full h-full fixed object-cover `}>
+      <div className={` ${styles.paddingX} ${styles.flexStart} py-[0px] z-20 flex  px-0 w-full h-full fixed object-cover `}>
         <div className=' w-[1000px] h-[800px] rounded-lg bg-primary  pb-0'>
 
           <div className="  flex justify-end p-2">
@@ -93,10 +93,11 @@ const AirConditionerForm = ({ setFormModal }) => {
                   <div className={`h-[400px] w-[600px] py-10 flex flex-col`}>
                     <h1 className='font-poppins font-semibold text-right text-white text-[25px] leading-[23.4px] mb-1'>Air conditioner Tips</h1>
                     <p className='font-poppins font-semibold text-left pt-10 text-dimWhite text-[18px] leading-[23.4px] mb-1'>
-                      Set the temperature at <span className='text-red-300'>26C</span> for cooling in <span className='text-red-300'>summer</span> and <span className='text-red-300'>20C</span> for heating in <span className='text-red-300'>winter</span> to minimise energy usage. Setting the temperature closer to the ambient temperature will reduce your energy usage significantly. A small change of <span className='text-red-300'>one degree</span>can save you around <span className='text-red-300'>10%</span>from your cooling/heating costs.<br /><br /><br /><br />
-                      Avoid <span className='text-red-300'>turning on</span> and <span className='text-red-300'>off</span> your air conditioning when at home. <span className='text-red-300'>Freguent switching</span>not only causes a <span className='text-red-300'>higher energy bill</span> but also may add <span className='text-red-300'>extra strain</span> on your unit.</p>
+                      Set the temperature at <span className='text-red-300'>26C</span> for cooling in <span className='text-red-300'>summer</span> and <span className='text-red-300'>20C</span> for heating in <span className='text-red-300'>winter</span> to minimise energy usage. Setting the temperature closer to the ambient temperature will reduce your energy usage significantly. A small change of <span className='text-red-300'>one degree</span> can save you around <span className='text-red-300'>10%</span> from your cooling/heating costs.<br /><br /><br /><br />
+                      Avoid <span className='text-red-300'>turning on</span> and <span className='text-red-300'>off</span> your air conditioning when at home. <span className='text-red-300'>Frequent switching</span> not only causes a <span className='text-red-300'>higher energy bill</span> but also may add <span className='text-red-300'>extra strain</span> on your unit.</p>
                   </div>
                 </div>
+
 
               </div>
             </div>
@@ -111,9 +112,10 @@ const AirConditionerForm = ({ setFormModal }) => {
               <button type="button" onClick={() => setStep(step + 1)} className=" w-[105px] h-[40px] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Start</button>
             </div>)}
 
-            {step === 6 && (
+          {step === 6 && (
             <div className='flex justify-center'>
-              <button type="button"  onClick={() => { setStep(step + 1) }} className=" w-[300px] h-[40px] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Top 5 energy Air Condition</button>
+              <button type="button" onClick={() => { setStep(step + 1) }} className=" w-[300px] h-[40px] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Top 5 Most Efficient Air Conditioner
+              </button>
             </div>)}
 
           {/* 前讲后退按钮 */}

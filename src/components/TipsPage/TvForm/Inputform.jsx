@@ -23,7 +23,7 @@ const Inputform = (props) => {
           {/* 题目 */}
           <h1 className='text-white text-xl '> {title} </h1>
 
-          <Input  onChange={onClickHandle} className="mt-10 shadow w-[400px] appearance-none border rounded  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="degree" />
+          <Input  onChange={onClickHandle} className="mt-10 shadow w-[400px] appearance-none border rounded  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="hour" />
 
 
         </div>

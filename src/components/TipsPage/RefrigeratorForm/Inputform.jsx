@@ -17,13 +17,14 @@ const Inputform = (props) => {
 
     <div className='flex justify-center items-center'>
 
-      <div className='p-[100px] mt-[880px] w-[1000px] h-[600px] fixed bg-primary z-50 flex justify-center items-center'>
+      <div className='p-[100px] mt-[700px] w-[1000px] h-[500px] fixed bg-primary z-50 flex justify-center items-center'>
 
         <div className='w-[700px] h-[450px] fixed  flex justify-center items-center flex-col' >
           {/* 题目 */}
           <h1 className='text-white text-xl '> {title} </h1>
 
-          <Input onChange={onClickHandle} className="mt-10 shadow w-[400px] appearance-none border rounded  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="degree" />
+          <Input  onChange={onClickHandle} className="mt-10 shadow w-[400px] appearance-none border rounded  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="degree" />
+
 
         </div>
 

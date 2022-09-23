@@ -7,6 +7,7 @@ import {
   Refrigerator,
   Tv,
   Airconditionar,
+  AirConditioner1
  } from "../assets";
 
 
@@ -68,15 +69,27 @@ export const navLinks = [
       url:"/home"
     },
     {
+      id: "Calculator",
+      title: "Calculator",
+      url:"/calculator"
+    },
+    {
+      id: "Recommendations",
+      title: "Recommendations",
+      url:"/tips"
+    },
+
+    {
       id: "statistics",
       title: "Statistics",
       url:"/statistics"
     },
+
     {
-      id: "tips",
-      title: "Tips",
-      url:"/tips"
-    }
+      id: "Energy Supplier",
+      title: "Energy Supplier",
+      url:"/energysupplier"
+    },
 ];
 
 export const stats = [
@@ -100,6 +113,22 @@ export const stats = [
 
 export const features = [
   {
+    id: "feature-3",
+    icon: star,
+    title: "Calculator",
+    url:"/calculator",
+    content:
+      "Check out how you can reduce your energy usage and help save the planet and money at the same time.",
+  },
+  {
+    id: "feature-2",
+    icon: star,
+    title: "Recommendations",
+    url:"/tips",
+    content:
+      "Check out how you can reduce your energy usage and help save the planet and money at the same time.",
+  },
+  {
     id: "feature-1",
     icon: star,
     title: "Statistics",
@@ -108,22 +137,17 @@ export const features = [
       "See how your electricity energy contribute to greenhouse emissions",
   },
   {
-    id: "feature-2",
+    id: "feature-4",
     icon: star,
-    title: "Tips",
-    url:"/tips",
+    title: "Energy Supplier",
+    url:"/energysupplier",
     content:
-      "Check out how you can reduce your energy usage and help save the planet and money at the same time.",
-  }
-  ,
-  {
-    id: "feature-3",
-    icon: star,
-    title: "Calculator",
-    url:"/calculator",
-    content:
-      "Check out how you can reduce your energy usage and help save the planet and money at the same time.",
-  }];
+      "See the greenest energy companies in Victoria and how they contribute to a carbon neutral future",
+  },
+
+  
+ 
+];
 
 
   export const appliances = [
@@ -132,23 +156,20 @@ export const features = [
       image: Airconditionar,
       title: "Air Conditioner",
       
-      content:
-        "Find tips， C02 Emissons, and Recommondation appliances",
+
     },
     {
       id: "appliances-2",
       image: Tv,
-      title: "TV",
-      
-      content:
-      "Find tips， C02 Emissons, and Recommondation appliances",    },
+      title: "Tv",
+    },
+
     {
       id: "appliances-3",
       image: Refrigerator,
       title: "Refrigerator",
      
-      content:
-      "Find tips， C02 Emissons, and Recommondation appliances",    },
+    }
     
 
 ];
@@ -160,9 +181,10 @@ export const top10ac = [
     model: "RZAV85CV1 / FCA85CVMA",
     brand: "DAIKIN",
     star:"5",
-    image: Airconditionar,
+    image: AirConditioner1,
     coolenergy:"2.0",
     heatenergy:"2.13",
+    link:"https://www.lawsonair.com.au/daikin-fca85c-vcv-8.5kw-single-phase-premium-cassette"
    
   },
   {
@@ -173,6 +195,7 @@ export const top10ac = [
     image: Airconditionar,
     coolenergy:"5.76",
     heatenergy:"4.21",
+    link:"https://www.lawsonair.com.au/daikin-fca85c-vcv-8.5kw-single-phase-premium-cassette"
   }, {
     id: "ac3",
     model: "AJY040LBLBH",
@@ -181,6 +204,7 @@ export const top10ac = [
     image: Airconditionar,
     coolenergy:"2.98",
     heatenergy:"2.47",
+    link:"https://www.lawsonair.com.au/daikin-fca85c-vcv-8.5kw-single-phase-premium-cassette"
   }, {
     id: "ac4",
     model: "ARUN060GSS0",
@@ -189,6 +213,7 @@ export const top10ac = [
     image: Airconditionar,
     coolenergy:"3.97",
     heatenergy:"3.589",
+    link:"https://www.lawsonair.com.au/daikin-fca85c-vcv-8.5kw-single-phase-premium-cassette"
   }, {
     id: "ac5",
     model: "PUHY-EP200YNW-A1",
@@ -197,6 +222,7 @@ export const top10ac = [
     image: Airconditionar,
     coolenergy:"5.0",
     heatenergy:"5.7",
+    link:"https://www.lawsonair.com.au/daikin-fca85c-vcv-8.5kw-single-phase-premium-cassette"
   }
 ];
 

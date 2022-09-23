@@ -9,6 +9,7 @@ import Calculator from './components/Calculator';
 import Datav from './components/StatisticsPage/Datavisualization';
 import { TOP_ROUTE } from './constants/path';
 import './index.css'
+import EnergySupplier from './components/EnergySupplier';
 
 
 // 异步导入
@@ -34,6 +35,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="*" element={<NotFoundPage/>}></Route>
           <Route path="/tips" element={<Tips/>}></Route>
           <Route path="/calculator" element={<Calculator/>}></Route>
+          <Route path="/calculator" element={<Calculator/>}></Route>
+          <Route path="/energysupplier" element={<EnergySupplier/>}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

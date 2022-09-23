@@ -15,7 +15,7 @@ const DropDown = (props) => {
     }
     return (
         <div className='flex justify-center items-center'>
-            <div className='p-[100px] mt-[880px] w-[1000px] h-[600px] fixed bg-white z-50 flex justify-center items-center'>
+            <div className='p-[100px] mt-[700px] w-[1000px] h-[580px] fixed bg-white z-50 flex justify-center items-center'>
                 <div className='w-[700px] h-[450px] fixed flex flex-col justify-center items-center' >
                     <h1> {title} </h1>
 

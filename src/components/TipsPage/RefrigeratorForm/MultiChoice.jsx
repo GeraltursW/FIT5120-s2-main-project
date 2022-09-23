@@ -15,7 +15,7 @@ const MultiChoice = (props) => {
 
 
     <div className='flex justify-center items-center'>
-      <div className='p-[100px] mt-[880px] w-[1000px] h-[600px] fixed bg-primary z-50 flex justify-center items-center'>
+      <div className='p-[100px] mt-[700px] w-[1000px] h-[580px] fixed bg-primary z-50 flex justify-center items-center'>
         <div className='w-[700px] h-[450px] fixed flex flex-col justify-center items-center' >
         {/* 题目 */}
         <h1 className='text-white text-xl '> {title} </h1>
