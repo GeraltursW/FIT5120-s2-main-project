@@ -26,8 +26,36 @@ import Powershop from "./powershop.png"
 import Lumo from "./lumo.png"
 import Redenergy from "./redenergy.png"
 import Tago from "./tago.png"
+import AirConditioner2 from "./airconditionar2.png"
+import AirConditioner3 from "./airconditionar3.png"
+import AirConditioner4 from "./airconditionar4.png"
+import AirConditioner5 from "./airconditionar5.png"
+import Tv1 from "./tv1.png"
+import Tv2 from "./tv2.png"
+import Tv3 from "./tv3.png"
+import Tv4 from "./tv4.png"
+import Tv5 from "./tv5.png"
+import Fridge1 from "./fridge1.png"
+import Fridge2 from "./fridge2.png"
+import Fridge3 from "./fridge3.png"
+import Fridge4 from "./fridge4.png"
+import Fridge5 from "./fridge5.png"
 
 export {
+  Fridge1,
+  Fridge2,
+  Fridge3,
+  Fridge4,
+  Fridge5,
+  Tv1,
+  Tv2,
+  Tv3,
+  Tv4,
+  Tv5,
+  AirConditioner5,
+  AirConditioner4,
+  AirConditioner3,
+  AirConditioner2,
   Tago,
   Redenergy,
   Lumo,

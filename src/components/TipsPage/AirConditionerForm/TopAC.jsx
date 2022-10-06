@@ -6,7 +6,7 @@ const TopAC = () => {
 
     const ApplianceCard = ({model,brand, image,star, link ,heatenergy }) => {
         return (
-          <a 
+          <a href={link}
           className={`flex  flex-row  p-6 m-6 rounded-[20px] appliances-card bg-white`}>
             <div className={`w-[200px] h-[400px] rounded-full ${styles.flexCenter} `}>
               <img src={image} alt="appliance" className=" object-contain" />

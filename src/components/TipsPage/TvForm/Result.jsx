@@ -23,7 +23,7 @@ const Result = (props) => {
     {/* 题目 */}
     <div className='flex pl-2 bg-primary rounded-lg w-[650px] flex-row items-center'>
     <p className='text-white text-2xl'>If you use the tips we provide, you can save up to
-    <span className='text-red-200'> {result*100}</span> kg of CO2 emission </p>
+    <span className='text-red-200'> {result*100}</span> kg of CO2 emission per year</p>
     <Rate className='w-[100px] flex flex-row ml-[50px]'  character={<Co2Icon  />} count={result/2} disabled Value={1} /> 
     </div>
     
@@ -39,7 +39,7 @@ const Result = (props) => {
     <div className=' pl-2 mt-[20px] bg-primary rounded-lg w-[650px] flex flex-row items-center'>
     <p className='text-white  text-xl'> 
      <span className='text-red-200'> {result2*100}</span> litres of gasoline consumed</p>
-     <Rate className='w-[100px] flex flex-row ml-[50px]'  character={<GasolineIcon  />} count={result2/2} disabled Value={1} /> 
+     <Rate className='w-[100px] flex flex-row ml-[50px]'  character={<GasolineIcon  />} count={result2*2} disabled Value={1} /> 
     </div>
   
 

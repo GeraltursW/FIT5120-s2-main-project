@@ -1,12 +1,12 @@
 import React from 'react'
-import { top10ac } from '../../../constants/props';
+import { top10tv } from '../../../constants/props';
 import styles, {layout} from "../../../style";
 
 const TopAC = () => {
 
-    const ApplianceCard = ({model,brand, image,star, coolenergy,heatenergy }) => {
+    const ApplianceCard = ({model,brand, image,star,link}) => {
         return (
-          <div 
+          <a href={link} 
           className={`flex  flex-row  p-6 m-6 rounded-[20px] appliances-card bg-white`}>
             <div className={`w-[200px] h-[400px] rounded-full ${styles.flexCenter} `}>
               <img src={image} alt="appliance" className=" object-contain" />
@@ -22,12 +22,10 @@ const TopAC = () => {
               <h4 className=" mt-[20px] font-poppins font-semibold text-darkyellow text-[18px] leading-[23.4px] mb-1">
                 Star: {star}
               </h4>
-              <h4 className=" mt-[20px] font-poppins font-semibold text-red-800 text-[18px] leading-[23.4px] mb-1">
-              Heat Energy consumption:: {heatenergy}
-              </h4>
+              
             </div>
 
-          </div>
+          </a>
         )
       }
 
@@ -36,12 +34,12 @@ const TopAC = () => {
     <div className='flex justify-center items-center'>
 
     <div className='p-[100px] mt-[680px] w-[1000px] bg-primary h-[600px] fixed bg- z-50 flex justify-center '>
-        <h1 className='text-green-200 text-xl '> Top 5 Energy Air Conditioner </h1>
+        <h1 className='text-green-200 text-xl '> Top 5 Energy TV </h1>
       <div className='w-[700px] h-[600px] fixed flex  items-center flex-col overflow-auto' >
         {/* 题目 */}
         
         <div className='flex flex-col '>
-        {top10ac.map((ac, index) => {
+        {top10tv.map((ac, index) => {
                         return (
                           <div key={ac.id} className='mt-[50px]' >
                                   <ApplianceCard   {...ac} index={index}>

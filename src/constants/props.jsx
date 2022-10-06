@@ -7,7 +7,21 @@ import {
   Refrigerator,
   Tv,
   Airconditionar,
-  AirConditioner1
+  AirConditioner1,
+  AirConditioner2,
+  AirConditioner3,
+  AirConditioner4,
+  AirConditioner5,
+  Tv1,
+  Tv2,
+  Tv3,
+  Tv4,
+  Tv5,
+  Fridge1,
+  Fridge2,
+  Fridge3,
+  Fridge4,
+  Fridge5
  } from "../assets";
 
 
@@ -174,6 +188,100 @@ export const features = [
 
 ];
 
+export const top10fridge = [
+  {
+    id: "ac1",
+    model: "HR6BMFF519B",
+    brand: "HISENSE",
+    star:"5",
+    image: Fridge1,
+    link:"https://masterbuygroup.com.au/product/hisense-519l-bottom-mount-refrigerator-hr6bmff519b/"
+   
+  },
+  {
+    id: "ac2",
+    model: "GC-B529NLCF",
+    brand: "LG",
+    star:"5",
+    image: Fridge2,
+    link:"https://www.harveynorman.com.my/home-appliances/kitchen-appliances-en/fridges-en/lg-gc-b529nqcz-454l-2-door-bottom-freezer-fridge.html"
+  }, {
+    id: "ac3",
+    model: "HR6BMFF453B",
+    brand: "HISENSE",
+    star:"5",
+    image: Fridge3,
+    link:"https://hisense.com.au/product/bottom-mount-black-steel-hr6bmff453b/"
+  }, {
+    id: "ac4",
+    model: "CNef 4315",
+    brand: "LIEBHERR",
+    star:"5",
+    image: Fridge4,
+    link:"https://home.liebherr.com/en/aus/apac/household-appliances/freestanding-appliances/fridge-freezers/details/cnef-4315.html"
+  }, {
+    id: "ac5",
+    model: "SGNPes 4365",
+    brand: "LIEBHERR",
+    star:"5",
+    image: Fridge5,
+    link:"https://home.liebherr.com/en/aus/apac/household-appliances/freestanding-appliances/freezers/details/sgnpes-4365.html"
+  }
+];
+
+export const top10tv = [
+  {
+    id: "ac1",
+    model: "8215 Series 4K ",
+    brand: "PHILIPS",
+    star:"5",
+    image: Tv1,
+    size: "65'' ",
+    link:"https://www.harveynorman.com.au/philips-65-inch-8215-series-4k-uhd-led-lcd-android-tv.html"
+   
+  },
+  {
+    id: "ac1",
+    model: "LC-50LE275X",
+    brand: "SHARP",
+    star:"5",
+    image: Tv2,
+    size: "50'' ",
+    link:"https://productz.com/en/sharp-lc-50le275x/p/dxwoG"
+   
+  },
+  {
+    id: "ac1",
+    model: "40PFT5063/79",
+    brand: "PHILIPS",
+    star:"5",
+    image: Tv3,
+    size: "40'' ",
+    link:"https://www.philips.com.au/c-p/40PFT5063_79/5000-series-full-hd-ultra-slim-led-tv-with-digital-crystal-clear"
+   
+  },
+  {
+    id: "ac1",
+    model: "Series 9, RT9230",
+    brand: "KOGAN",
+    star:"5",
+    image: Tv4,
+    size: "55'' ",
+    link:"https://www.kogan.com/au/buy/kogan-55-4k-uhd-led-smart-android-tv-series-9-rt9230-kogan/?utm_source=google&utm_medium=product_listing_ads&gclid=Cj0KCQjwsrWZBhC4ARIsAGGUJuoq4yXQZxMeS937Fj4xH5s4c0IsR9IQ4Bq8oMKqbmWMDtdk4uuNMDMaAoU6EALw_wcB"
+   
+  },
+  {
+    id: "ac1",
+    model: "55P615",
+    brand: "TCL",
+    star:"5",
+    image: Tv5,
+    size: "50'' ",
+    link:"https://www.betta.com.au/tcl-55-inch-4k-ultra-hd-android-television-815367?gclid=Cj0KCQjwsrWZBhC4ARIsAGGUJuoyrBrfAzK9caMOUFuld21B5dAdAHYdCwsd79SalLFmiOdr8pGZppEaAupdEALw_wcB"
+   
+  },
+];
+
 
 export const top10ac = [
   {
@@ -192,37 +300,37 @@ export const top10ac = [
     model: "U-8ME2R8E",
     brand: "PANASONIC",
     star:"5",
-    image: Airconditionar,
+    image: AirConditioner2,
     coolenergy:"5.76",
     heatenergy:"4.21",
-    link:"https://www.lawsonair.com.au/daikin-fca85c-vcv-8.5kw-single-phase-premium-cassette"
+    link:"https://www.harveynorman.com.au/panasonic-8-0kw-u-series-smart-cooling-only-split-system-air-conditioner.html?CAWELAID=720013240000581148&gclid=Cj0KCQjwsrWZBhC4ARIsAGGUJupJohlDDQ56NOV88sx5h3uKr2GgNRT6DX-q5OhHSVKocUue_71By6YaAhVZEALw_wcB&gclsrc=aw.ds"
   }, {
     id: "ac3",
     model: "AJY040LBLBH",
     brand: "FUJITSU",
     star:"5",
-    image: Airconditionar,
+    image: AirConditioner3,
     coolenergy:"2.98",
     heatenergy:"2.47",
-    link:"https://www.lawsonair.com.au/daikin-fca85c-vcv-8.5kw-single-phase-premium-cassette"
+    link:"https://www.fujitsu-general.com/uk/products/vrf/j4/ajy040lblbh.html"
   }, {
     id: "ac4",
     model: "ARUN060GSS0",
     brand: "LG",
     star:"5",
-    image: Airconditionar,
+    image: AirConditioner4,
     coolenergy:"3.97",
     heatenergy:"3.589",
-    link:"https://www.lawsonair.com.au/daikin-fca85c-vcv-8.5kw-single-phase-premium-cassette"
+    link:"https://wholesaleaircon.com.au/product/lg-air-conditioning-wh30sr-18-premium-inverter-split-system/?utm_source=Google%20Shopping&utm_campaign=BIllys%20feed&utm_medium=cpc&utm_term=2121&gclid=Cj0KCQjwsrWZBhC4ARIsAGGUJuqEbZvOwPwNBZz6XpQ4OEuBNAJwCiGH7zwoSVmSApj6SlmxMS06hjAaAl0IEALw_wcB"
   }, {
     id: "ac5",
     model: "PUHY-EP200YNW-A1",
     brand: "MITSUBISHI ELECTRIC",
     star:"5",
-    image: Airconditionar,
+    image: AirConditioner5,
     coolenergy:"5.0",
     heatenergy:"5.7",
-    link:"https://www.lawsonair.com.au/daikin-fca85c-vcv-8.5kw-single-phase-premium-cassette"
+    link:"https://www.ozaironline.com.au/products/mitsubishi-electric-ap-series-2-5kw-reverse-cycle-split-air-conditioner?currency=AUD&variant=40087828267216&utm_medium=cpc&utm_source=google&utm_campaign=Google%20Shopping&gclid=Cj0KCQjwsrWZBhC4ARIsAGGUJupXmy4hF_9HdQmndWHbQkjkP-0C7520JOUnP_G1YJJ9Gq-LafnWpLcaAg_FEALw_wcB"
   }
 ];
 

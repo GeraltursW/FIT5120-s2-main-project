@@ -13,33 +13,30 @@ const questions = [
   {
     title: "1.What % of your fridge is filled?",
     options: [
-      { value: 1/4, text: "25%" },
-      { value: 2/4, text: "50%" },
-      { value: 3/4, text: "75%" },
-      { value: 4/4, text: "100%" },
+      { value: 1, text: "25%" },
+      { value: 2, text: "50%" },
+      { value: 3, text: "75%" },
+      { value: 4, text: "100%" },
     ]
   },
   {
-    title: "2.What temperature is your fridge set to? ",
+    title: "3. How many kWh is your AC?",
+    options: [
+      { value: 2, text: "Average" },
+      { value: 2, text: "Around 2 kw" },
+      { value: 3, text: "Around 3 kw" },
+      { value: 4, text: "Around 4 kw" },
+    ]
   },
-  // {
-  //   title: "3. How many kWh is your AC?",
-  //   options: [
-  //     { value: 3, text: "Average" },
-  //     { value: 3, text: "Around 3 kw" },
-  //     { value: 5, text: "Around 5 kw" },
-  //     { value: 7, text: "Around 7 kw" },
-  //   ]
-  // },
-  // {
-  //   title: "4.How long are you planning to use it",
-  //   options: [
-  //     { value: 1, text: "1 hour" },
-  //     { value: 2, text: "2 hours" },
-  //     { value: 3, text: "3 hours" },
-  //     { value: 3, text: "4 hours" },
-  //   ]
-  // },
+  {
+    title: "4.How long are you planning to use it",
+    options: [
+      { value: 1, text: "1 hour" },
+      { value: 2, text: "2 hours" },
+      { value: 3, text: "3 hours" },
+      { value: 3, text: "4 hours" },
+    ]
+  },
 ]
 
 const RefrigeratorForm = ({ setFormModal }) => {
@@ -52,20 +49,20 @@ const RefrigeratorForm = ({ setFormModal }) => {
   }
   const questionlist = Object.values(form)
   console.dir(form)
-  const result = Math.round(parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.0011 * 1000) / 1000 * 1000;
-  const result1 = Math.round(parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.55 * 1000) / 1000
-  const result2 = Math.round(parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.03 * 1000) / 1000
-  const result3 = Math.round(parseInt(questionlist[2]) * parseInt(questionlist[3]) * 134 * 1000) / 1000
+  const result = Math.round(parseInt(questionlist[0]) * parseInt(questionlist[1])* parseInt(questionlist[2]) * 0.0011 * 1000) / 1000 * 1000;
+  const result1 = Math.round(parseInt(questionlist[0]) * parseInt(questionlist[1])* parseInt(questionlist[2]) * 0.55 * 1000) / 1000
+  const result2 = Math.round(parseInt(questionlist[0]) * parseInt(questionlist[1])* parseInt(questionlist[2]) * 0.03 * 1000) / 1000
+  const result3 = Math.round(parseInt(questionlist[0]) * parseInt(questionlist[1])* parseInt(questionlist[2]) * 134 * 1000) / 1000
 
   return (
     <div>
       {step === 1 && <Introduction />}
       {step === 2 && <MultiChoice {...questions[0]} onChange={(value) => onChange('one', value)} />}
-      {step === 3 && <Inputform  {...questions[1]} onChange={(value) => onChange('two', value)} />}
-      {/* {step === 4 && <MultiChoice {...questions[2]} onChange={(value) => onChange('three', value)} />}
-      {step === 5 && <MultiChoice {...questions[3]} onChange={(value) => onChange('four', value)} />} */}
-      {step === 4 && <Result result={result} result1={result1} result2={result2} result3={result3} />}
-      {step === 5 && <TopAC />}
+      {/* {step === 3 && <Inputform  {...questions[1]} onChange={(value) => onChange('two', value)} />} */}
+      {step === 3 && <MultiChoice {...questions[1]} onChange={(value) => onChange('two', value)} />}
+      {step === 4 && <MultiChoice {...questions[2]} onChange={(value) => onChange('three', value)} />}
+      {step === 5 && <Result result={result} result1={result1} result2={result2} result3={result3} />}
+      {step === 6 && <TopAC />}
 
 
       {/* 透明背景 */}
@@ -119,9 +116,9 @@ const RefrigeratorForm = ({ setFormModal }) => {
               <button type="button" onClick={() => setStep(step + 1)} className=" w-[105px] h-[40px] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Start</button>
             </div>)}
 
-          {step === 6 && (
+          {step === 5 && (
             <div className='flex justify-center'>
-              <button type="button" onClick={() => { setStep(step + 1) }} className=" w-[300px] h-[40px] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Top 5 Most Efficient Air Conditioner
+              <button type="button" onClick={() => { setStep(step + 1) }} className=" w-[300px] h-[40px] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Top 5 Most Efficient Refrigerator
               </button>
             </div>)}
 

@@ -13,10 +13,10 @@ const questions = [
   {
     title: "1.What is the size of your TV?",
     options: [
-      { value: 2, text: " 32''-43'' " },
-      { value: 4, text: " 50''- 60'' " },
-      { value: 6, text: "60''-70''" },
-      { value: 8, text: "70''-85''" },
+      { value:1, text: " 32''-43'' " },
+      { value:2, text: " 50''- 60'' " },
+      { value:3, text: "60''-70''" },
+      { value:4, text: "70''-85''" },
     ]
   },
   {
@@ -52,10 +52,10 @@ const TvForm = ({ setFormModal }) => {
   }
   const questionlist = Object.values(form)
   console.dir(form)
-  const result =Math.round( parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.0011 *1000)/1000*1000;
-  const result1 = Math.round( parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.55 *1000)/1000
-  const result2 = Math.round( parseInt(questionlist[2]) * parseInt(questionlist[3]) * 0.03 *1000)/1000
-  const result3 = Math.round( parseInt(questionlist[2]) * parseInt(questionlist[3]) * 134 *1000)/1000
+  const result =Math.round( parseInt(questionlist[0]) * parseInt(questionlist[1]) * 0.0011 *1000)/1000*1000;
+  const result1 = Math.round( parseInt(questionlist[0]) * parseInt(questionlist[1]) * 0.55 *1000)/1000
+  const result2 = Math.round( parseInt(questionlist[0]) * parseInt(questionlist[1]) * 0.03 *1000)/1000
+  const result3 = Math.round( parseInt(questionlist[0]) * parseInt(questionlist[1]) * 134 *1000)/1000
 
   return (
     <div>
@@ -117,14 +117,14 @@ const TvForm = ({ setFormModal }) => {
               <button type="button" onClick={() => setStep(step + 1)} className=" w-[105px] h-[40px] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Start</button>
             </div>)}
 
-            {step === 6 && (
+            {step === 4 && (
             <div className='flex justify-center'>
-              <button type="button"  onClick={() => { setStep(step + 1) }} className=" w-[300px] h-[40px] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Top 5 Most Efficient Air Conditioner 
+              <button type="button"  onClick={() => { setStep(step + 1) }} className=" w-[300px] h-[40px] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Top 5 Most Efficient TV
 </button>
             </div>)}
 
           {/* 前讲后退按钮 */}
-          {step > 1 && step < 5 && (
+          {step > 1 && step < 4 && (
             <div className='flex justify-center'>
               <button type="button" onClick={() => setStep(step - 1)} class=" w-[105px] h-[40px] text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-[200px] mb-2">Back</button>
               <button type="button" onClick={() => setStep(step + 1)} className=" w-[105px] h-[40px] text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Next</button>

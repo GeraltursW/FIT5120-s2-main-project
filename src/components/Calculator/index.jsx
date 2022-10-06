@@ -2,7 +2,7 @@ import React from 'react'
 import videobg from '../../assets/back-video4.mp4'
 
 function goUrl(){
-    window.location.href="http://ta5.calculator.s3-website-ap-southeast-2.amazonaws.com/Boat/"
+    window.location.href="http://ta5.calculator.s3-website-ap-southeast-2.amazonaws.com/Calculator/"
 }
 
 const Calculator = () => {
