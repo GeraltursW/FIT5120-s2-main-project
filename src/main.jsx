@@ -10,6 +10,7 @@ import Datav from './components/StatisticsPage/Datavisualization';
 import { TOP_ROUTE } from './constants/path';
 import './index.css'
 import EnergySupplier from './components/EnergySupplier';
+import CarbonOffset from './components/CarbonOffset';
 
 
 // 异步导入
@@ -37,6 +38,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/calculator" element={<Calculator/>}></Route>
           <Route path="/calculator" element={<Calculator/>}></Route>
           <Route path="/energysupplier" element={<EnergySupplier/>}></Route>
+          <Route path="/carbonoffset" element={<CarbonOffset/>}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

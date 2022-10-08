@@ -22,14 +22,14 @@ const questions = [
   {
     title: "3. How many kWh is your AC?",
     options: [
-      { value: 2, text: "Average" },
+      { value: 2, text: "average power" },
       { value: 2, text: "Around 2 kw" },
       { value: 3, text: "Around 3 kw" },
       { value: 4, text: "Around 4 kw" },
     ]
   },
   {
-    title: "4.How long are you planning to use it",
+    title: "4.How long are you planning to use it?",
     options: [
       { value: 1, text: "1 hour" },
       { value: 2, text: "2 hours" },
@@ -93,7 +93,7 @@ const RefrigeratorForm = ({ setFormModal }) => {
                     <p className='font-poppins font-semibold text-left pt-10 text-dimWhite text-[18px] leading-[23.4px] mb-1'>
                       
                       Keep your <span className='text-red-400'>fridge door closed</span>  to maintain its temperature and reduce cooling costs. <br />
-                      <span className='text-red-400'>Fill up</span> your fridge without<span className='text-red-400'>overfilling</span>. This prevents warm air from entering when you open the door. You can cover <span className='text-red-400'>big empty spaces</span> with <span className='text-red-400'>containers of water.</span> <br /><br /><br />
+                      <span className='text-red-400'>Fill up</span> your fridge without<span className='text-red-400'> overfilling</span>. This prevents warm air from entering when you open the door. You can cover <span className='text-red-400'>big empty spaces</span> with <span className='text-red-400'>containers of water.</span> <br /><br /><br />
                       Set <span className='text-red-400'>fridge</span> to <span className='text-red-400'>3C</span> and <span className='text-red-400'>freezer</span> to <span className='text-red-400'>-15C</span>. Setting it below this wastes extra energy without any benefit.  <br />
                       Prevent <span className='text-red-400'>frost</span> from <span className='text-red-400'>buiding up</span> in the <span className='text-red-400'>freezer</span> which may block coils that remove heat from the warm air.  <br />
 

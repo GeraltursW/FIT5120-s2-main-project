@@ -32,7 +32,7 @@ const questions = [
     ]
   },
   {
-    title: "4.How long are you planning to use it",
+    title: "4.How long are you planning to use it？",
     options: [
       { value: 1, text: "1 hour" },
       { value: 2, text: "2 hours" },

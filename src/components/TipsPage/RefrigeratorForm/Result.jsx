@@ -51,7 +51,7 @@ const Result = (props) => {
 
 
     
-    <p className='text-white mt-[60px] text-3xl'> Now, let's see the <span className='text-green-200'>top 5 most efficient air conditioner </span> in terms of its performance and energy use  </p>
+    <p className='text-white mt-[60px] text-3xl'> Now, let's see the <span className='text-green-200'>top 5 most efficient Fridge </span> in terms of its performance and energy use  </p>
 
     
 

@@ -9,15 +9,15 @@ const Introd = () => {
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 `}>
         <div className="flex flex-row justify-between items-center w-full z-0">
           <h1 className="z-0 flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] ">
-            Australian <br className="sm:block hidden" />{" "}
-            <span className="z-0 text-gradient">Energy-Saving</span>{" "}
+          Greenest <br className="sm:block hidden" />{" "}
+            <span className="z-0 text-gradient">Energy Providers</span>{" "}
           </h1>
           {/* <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div> */}
         </div>
         <h1 className="z-0 font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Suppliers
+        in Victoria
         </h1>
       </div>
 

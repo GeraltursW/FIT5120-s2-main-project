@@ -84,18 +84,18 @@ export const navLinks = [
     },
     {
       id: "Calculator",
-      title: "Calculator",
+      title: "CO2 Calculate",
       url:"/calculator"
     },
     {
       id: "Recommendations",
-      title: "Recommendations",
+      title: "Energy Tips",
       url:"/tips"
     },
 
     {
       id: "statistics",
-      title: "Statistics",
+      title: "Energy Statistics",
       url:"/statistics"
     },
 
@@ -103,6 +103,11 @@ export const navLinks = [
       id: "Energy Supplier",
       title: "Energy Supplier",
       url:"/energysupplier"
+    },
+    {
+      id: "Carbon offset",
+      title: "Carbon offset",
+      url:"/carbonoffset"
     },
 ];
 
@@ -175,7 +180,7 @@ export const features = [
     {
       id: "appliances-2",
       image: Tv,
-      title: "Tv",
+      title: "TV",
     },
 
     {
@@ -385,6 +390,37 @@ export const erngycompany = [
     feature1: "Cooperative, not-for-profit ownership model.",
     feature2:"Encourages renewable uptake among customers.",
     feature3:"nvests in local renewable energy projects.",
+  },
+];
+
+export const smartuser = [
+  {
+    id: "smartuser-1",
+    title: "Smart User Box hill",
+    src:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.7595029692707!2d145.1220999!3d-37.81910179999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad640b74fd28fdf%3A0x970f5f6c155a8b6f!2sBox%20Hill%20Central!5e0!3m2!1sen!2sau!4v1665200778453!5m2!1sen!2sau",
+    
+
+  },
+  {
+    id: "smartuser-2",
+    title: "Smart User Chadstone",
+    src:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.821946561023!2d145.0803919513482!3d-37.887846479639485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66a66054c293f%3A0xf0456760532d460!2sChadstone%20-%20The%20Fashion%20Capital!5e0!3m2!1sen!2sau!4v1665200603115!5m2!1sen!2sau",
+    
+
+  },
+  {
+    id: "smartuser-3",
+    title: "Smart User Highpoint Shopping Centre",
+    src:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.684608554413!2d144.8850006269531!3d-37.773992799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65c568adda5ed%3A0x96a050f6dc82f3f8!2sHighpoint%20Shopping%20Centre!5e0!3m2!1sen!2sau!4v1665200657676!5m2!1sen!2sau" ,
+    
+
+  },
+  {
+    id: "smartuser-4",
+    title: "Smart User Glen Waverley",
+    src:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.224729750189!2d145.13560805134856!3d-37.90180957963708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4e776a2d61%3A0xe10cc853204934dd!2sSmart%20User!5e0!3m2!1sen!2sau!4v1665200405582!5m2!1sen!2sau" ,
+    
+
   },
 ];
 

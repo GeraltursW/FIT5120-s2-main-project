@@ -5,7 +5,7 @@
       "gdp": 187.0
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary",
       "year": 2002,
       "gdp": 77.6
     },
@@ -20,7 +20,7 @@
       "gdp": 41.8
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial",
       "year": 2002,
       "gdp": 28.0
     },
@@ -35,7 +35,7 @@
       "gdp": 187.6
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary",
       "year": 2003,
       "gdp": 79.5
     },
@@ -50,7 +50,7 @@
       "gdp": 40.8
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2003,
       "gdp": 30.4
     },
@@ -65,7 +65,7 @@
       "gdp": 198.1
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2004,
       "gdp": 81.2
     },
@@ -80,7 +80,7 @@
       "gdp": 41.7
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2004,
       "gdp": 30.2
     },
@@ -95,7 +95,7 @@
       "gdp": 197.4
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2005,
       "gdp": 81.7
     },
@@ -110,7 +110,7 @@
       "gdp": 43.1
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2005,
       "gdp": 30.5
     },
@@ -125,7 +125,7 @@
       "gdp": 204.3
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2006,
       "gdp": 81.6
     },
@@ -140,7 +140,7 @@
       "gdp": 45.1
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2006,
       "gdp": 31.6
     },
@@ -155,7 +155,7 @@
       "gdp": 204.9
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2007,
       "gdp": 83.1
     },
@@ -170,7 +170,7 @@
       "gdp": 46.7
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2007,
       "gdp": 32.6
     },
@@ -185,7 +185,7 @@
       "gdp": 209.8
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2008,
       "gdp": 85.0
     },
@@ -200,7 +200,7 @@
       "gdp": 45.6
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2008,
       "gdp": 33.0
     },
@@ -215,7 +215,7 @@
       "gdp": 206.6
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2009,
       "gdp": 81.3
     },
@@ -230,7 +230,7 @@
       "gdp": 45.6
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2009,
       "gdp": 30.2
     },
@@ -245,7 +245,7 @@
       "gdp": 200.4
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2010,
       "gdp": 85.7
     },
@@ -260,7 +260,7 @@
       "gdp": 45.8
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2010,
       "gdp": 34.3
     },
@@ -275,7 +275,7 @@
       "gdp": 200.3
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2011,
       "gdp": 87.0
     },
@@ -290,7 +290,7 @@
       "gdp": 42.6
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2011,
       "gdp": 33.4
     },
@@ -305,7 +305,7 @@
       "gdp": 191.9
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2012,
       "gdp": 91.8
     },
@@ -320,7 +320,7 @@
       "gdp": 45.1
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2012,
       "gdp": 30.3
     },
@@ -335,7 +335,7 @@
       "gdp": 183.0
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2013,
       "gdp": 92.6
     },
@@ -350,7 +350,7 @@
       "gdp": 43.9
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2013,
       "gdp": 29.6
     },
@@ -365,7 +365,7 @@
       "gdp": 185.5
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2014,
       "gdp": 93.0
     },
@@ -380,7 +380,7 @@
       "gdp": 46.3
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2014,
       "gdp": 29.9
     },
@@ -395,7 +395,7 @@
       "gdp": 192.5
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2015,
       "gdp": 87.8
     },
@@ -410,7 +410,7 @@
       "gdp": 48.7
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2015,
       "gdp": 30.5
     },
@@ -425,7 +425,7 @@
       "gdp": 191.6
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2016,
       "gdp": 96.2
     },
@@ -440,7 +440,7 @@
       "gdp": 49.7
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2016,
       "gdp": 30.8
     },
@@ -455,7 +455,7 @@
       "gdp": 186.7
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2017,
       "gdp": 96.6
     },
@@ -470,7 +470,7 @@
       "gdp": 53.9
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2017,
       "gdp": 31.1
     },
@@ -485,7 +485,7 @@
       "gdp": 181.1
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2018,
       "gdp": 99.1
     },
@@ -500,7 +500,7 @@
       "gdp": 54.4
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2018,
       "gdp": 32.5
     },
@@ -515,7 +515,7 @@
       "gdp": 176.2
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2019,
       "gdp": 99.1
     },
@@ -530,7 +530,7 @@
       "gdp": 55.5
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2019,
       "gdp": 32.1
     },
@@ -545,7 +545,7 @@
       "gdp": 167.5
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2020,
       "gdp": 99.3
     },
@@ -560,7 +560,7 @@
       "gdp": 49.9
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2020,
       "gdp": 32.0
     },
@@ -575,7 +575,7 @@
       "gdp": 160.5
     },
     {
-      "name": "Stationary Energy \n(except electricity)",
+      "name": "Stationary Energy",
       "year": 2021,
       "gdp": 102.5
     },
@@ -590,7 +590,7 @@
       "gdp": 50.8
     },
     {
-      "name": "Industrial Process \nand Product Use",
+      "name": "Industrial Process",
       "year": 2021,
       "gdp": 32.5
     },

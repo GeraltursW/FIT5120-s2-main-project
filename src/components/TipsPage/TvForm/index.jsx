@@ -94,7 +94,7 @@ const TvForm = ({ setFormModal }) => {
               <div className={`h-[400px] w-[600px] py-10 flex flex-col`}>
                 <h1 className='font-poppins font-semibold text-right text-white text-[25px] leading-[23.4px] mb-1'>TV</h1> 
                 <p className='font-poppins font-semibold text-left pt-10 text-dimWhite text-[18px] leading-[23.4px] mb-1'> 
-                Lower the <span className='text-red-300'>volume</span> and <span className='text-red-300'>brightness</span> of your <span className='text-red-300'>TV</span>. Choose the <span className='text-red-300'>Eco</span> or <span className='text-red-300'>Moive</span> picture mode if available. The Movie mode option is especially useful as it adjusts brightness automatically to ambient lighting for best viewing pleasure and energy cost.<br/><br/><br/><br/>
+                Lower the <span className='text-red-300'>volume</span> and <span className='text-red-300'>brightness</span> of your <span className='text-red-300'>TV</span>. Choose the <span className='text-red-300'>Eco</span> or <span className='text-red-300'>Movie</span> picture mode if available. The Movie mode option is especially useful as it adjusts brightness automatically to ambient lighting for best viewing pleasure and energy cost.<br/><br/><br/><br/>
                 Turn off the TV completely at the wall. Using the remote to turn the TV off usually only puts it on standby mode which still uses electricity.
 
                 </p>

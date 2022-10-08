@@ -15,7 +15,7 @@ export default class Home extends Component {
       <div className="w-full  overflow-hidden bg-black"> 
       <video src={videobg} autoPlay loop muted className=" absolute z-0 py-0 px-0 w-auto min-w-full min-h-full max-w-none opacity-70 overflow-hidden" />
             <div className={`  ${styles.paddingX} ${styles.flexCenter} mt-[200px]`}>
-              <div className={` ${styles.boxWidth} h-[880px]`}>
+              <div className={` ${styles.boxWidth} h-[750px]`}>
                 <Intro />
               </div>
             </div>

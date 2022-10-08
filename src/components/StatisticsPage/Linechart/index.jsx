@@ -24,7 +24,7 @@ const DemoLines = () => {
     // theme: 'dark',
     theme: 'custom-theme2',
     legend: {
-      position: 'top',
+      position: 'right',
     },
     smooth: true,
     // @TODO 后续会换一种动画方式

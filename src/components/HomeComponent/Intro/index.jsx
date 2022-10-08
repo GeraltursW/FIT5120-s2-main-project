@@ -1,7 +1,5 @@
 import styles from "../../../style";
-import GetStarted from "../Home/GetStarted";
 
-import { arrowUp } from "../../../assets";
 // import GetStarted from "../GetStarted/index";
 
 
@@ -24,7 +22,7 @@ const Intro = () => {
 
           {/* 这是  save your electricity energy 的 文字 */}
           <div className="flex flex-row justify-between items-center w-full z-0">
-            <h1 className="z-0 flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] ">
+            <h1 className="z-0 flex-1 font-poppins font-semibold ss:text-[52px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] ">
               Optimize Your  <br className="sm:block hidden" />{" "}
               <span className="z-0 text-gradient">Energy Usage </span>{" "}
             </h1>
@@ -32,7 +30,7 @@ const Intro = () => {
               <GetStarted />
             </div> */}
           </div>
-          <h1 className="z-0 font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
+          <h1 className="z-0 font-poppins font-semibold ss:text-[52px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
             and Save the Planet
           </h1>
 
@@ -56,7 +54,7 @@ const Intro = () => {
                   <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
                     <span className="text-gradient">Get</span>
                   </p>
-                  <img src={arrowUp} alt="arrow-up" className="w-[23px] h-[23px] object-contain" />
+                  {/* <img src={arrowUp} alt="arrow-up" className="w-[23px] h-[23px] object-contain" /> */}
                 </div>
 
                 <p className="font-poppins font-medium text-[18px] leading-[23.4px]">

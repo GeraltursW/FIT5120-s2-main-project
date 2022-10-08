@@ -24,7 +24,7 @@ const Result = (props) => {
     <div className='flex pl-2 bg-primary rounded-lg w-[650px] flex-row items-center'>
     <p className='text-white text-2xl'>If you use the tips we provide, you can save up to
     <span className='text-red-200'> {result*100}</span> kg of CO2 emission per year</p>
-    <Rate className='w-[100px] flex flex-row ml-[50px]'  character={<Co2Icon  />} count={result/2} disabled Value={1} /> 
+    <Rate className='w-[100px] flex flex-row ml-[50px]'  character={<Co2Icon  />} count={result/2000} disabled Value={1} /> 
     </div>
     
     <p className='text-white mt-[40px] text-xl'>Equivalent to</p>
@@ -32,21 +32,21 @@ const Result = (props) => {
     <div className='pl-2 mt-[20px] bg-primary rounded-lg w-[650px] flex flex-row items-center'>
     <p className='text-white  text-xl'>
     <span className='text-red-200'> {result1*100}</span> kg of Coal burned</p>
-    <Rate className='w-[100px] flex flex-row ml-[50px]'  character={<CoalIcon  />} count={result1/2} disabled Value={1} /> 
+    <Rate className='w-[100px] flex flex-row ml-[50px]'  character={<CoalIcon  />} count={result1/2000} disabled Value={1} /> 
     </div>
   
 
     <div className=' pl-2 mt-[20px] bg-primary rounded-lg w-[650px] flex flex-row items-center'>
     <p className='text-white  text-xl'> 
      <span className='text-red-200'> {result2*100}</span> litres of gasoline consumed</p>
-     <Rate className='w-[100px] flex flex-row ml-[50px]'  character={<GasolineIcon  />} count={result2/2} disabled Value={1} /> 
+     <Rate className='w-[100px] flex flex-row ml-[50px]'  character={<GasolineIcon  />} count={result2/2000} disabled Value={1} /> 
     </div>
   
 
      <div className='pl-2 mt-[20px] bg-primary rounded-lg w-[650px] flex flex-row items-center'>
      <p className='text-white  text-xl'> 
      <span className='text-red-200'> {result3*100}</span>  smartphones charged</p>
-     <Rate className='w-[100px] flex flex-row ml-[50px]'  character={<SmartphoneIcon  />} count={result3/1000} disabled Value={1} /> 
+     <Rate className='w-[100px] flex flex-row ml-[50px]'  character={<SmartphoneIcon  />} count={result3/1000000} disabled Value={1} /> 
      </div>
 
 

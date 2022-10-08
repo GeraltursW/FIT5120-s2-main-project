@@ -6,7 +6,7 @@ import styles from "../../../style";
 
 const IntroDatav = () => {
   return (
-    <div>  
+    <div >  
       <section id="home" className={` flex md:flex-row flex-col ${styles.paddingY}`}>
         
         {/* 此为左边显示文字 */}
@@ -14,14 +14,14 @@ const IntroDatav = () => {
           <div className="flex flex-row justify-between items-center w-full z-0">
             <h1 className="z-0 flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] ">
               Australian <br className="sm:block hidden" />{" "}
-              <span className="z-0 text-gradient">Energy</span>{" "}
+              <span className="z-0 text-gradient">Energy Emission </span>{" "}
             </h1>
             {/* <div className="ss:flex hidden md:mr-4 mr-0">
               <GetStarted />
             </div> */}
           </div>
           <h1 className="z-0 font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-            Statistics
+          Contributors
           </h1>
         </div>
 

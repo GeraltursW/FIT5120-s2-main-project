@@ -7,6 +7,7 @@ import AirConditionerForm from '../AirConditionerForm';
 import TvForm from "../TvForm";
 import RefrigeratorForm from '../RefrigeratorForm';
 import './card.css'
+import Smartuser from "./Smartuser";
 
 
 
@@ -36,7 +37,7 @@ const Tips = () => {
   const formswtich = () =>{
     switch(formOpen) {
       case "Air Conditioner":   return <AirConditionerForm setFormModal={setFormOpen}/> ; 
-      case "Tv":  return  <TvForm setFormModal={setFormOpen} />;
+      case "TV":  return  <TvForm setFormModal={setFormOpen} />;
       case "Refrigerator": return <RefrigeratorForm setFormModal={setFormOpen}/>;
     }
   }
@@ -75,6 +76,12 @@ const Tips = () => {
         </div>  
         
       </div>    
+
+      <div className={`${styles.paddingX} ${styles.flexCenter} bg-darkgreen`}>
+        <div className={`${styles.boxWidth}`}>
+            <Smartuser/>
+        </div>  
+      </div>
     
 
 
