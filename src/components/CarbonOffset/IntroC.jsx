@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "../../style";
+import { Earth3D } from '../../assets';
 const IntroC = () => {
   return (
     <div>  
@@ -24,7 +25,7 @@ const IntroC = () => {
 
       {/* 此为右边显示图片 */}
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        {/* <img src={Earth} alt="logo" className="w-[50%] h-[100%] relative z-[5]" /> */}
+        <img src={Earth3D} alt="logo" className="w-[50%] h-[100%] relative z-[5]" />
         {/* 这是图中的渐变颜色效果 */}
         {/* gradient start */}
         {/* <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

@@ -1,4 +1,5 @@
 import styles from "../../../style";
+import { IntroTip } from "../../../assets";
 
 // import GetStarted from "../GetStarted/index";
 
@@ -26,8 +27,8 @@ const IntroTips = () => {
 
 
         {/* 此为右边显示图片 */}
-        <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-          {/* <img src={Earth} alt="logo" className="w-[50%] h-[100%] relative z-[5]" /> */}
+        <div className={`flex-1 flex ${styles.flexCenter}  relative`}>
+          <img src={IntroTip}  className="w-[90%] h-[100%] relative z-[5]" />
           {/* 这是图中的渐变颜色效果 */}
           {/* gradient start */}
           {/* <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

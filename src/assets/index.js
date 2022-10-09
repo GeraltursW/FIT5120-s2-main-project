@@ -40,8 +40,21 @@ import Fridge2 from "./fridge2.png"
 import Fridge3 from "./fridge3.png"
 import Fridge4 from "./fridge4.png"
 import Fridge5 from "./fridge5.png"
-
+import UserJourneyImg from "./Untitled-1.png";
+import ArrowDown from "./arrow-down.svg";
+import GroupTree from "./grouptree.png";
+import IntroTip from "./Saly-10.png";
+import IntroSta from "./Saly-25.png";
+import IntroSup from "./Saly-26.png";
+import Earth3D from "./Saly-44.png";
 export {
+  Earth3D,
+  IntroSup,
+  IntroSta,
+  IntroTip,
+  GroupTree,
+  ArrowDown,
+  UserJourneyImg,
   Fridge1,
   Fridge2,
   Fridge3,

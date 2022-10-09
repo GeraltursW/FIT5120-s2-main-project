@@ -28,8 +28,13 @@ const Smartuser = () => {
         <div className={`${styles.boxWidth}`}>
 
         <p className='font-poppins font-semibold text-left pt-10 text-dimWhite text-[50px] leading-[23.4px] mb-1'> Smart user</p>
-        <p className='font-poppins font-semibold text-left pt-10 text-dimWhite text-[20px] leading-[23.4px] mb-1'> Description Description Description Description Description  Description Description Description Description Description  Description Description Description Description Description  Description Description Description Description Description  Description Description Description Description Description  Description Description Description Description Description  Description Description Description Description Description</p>
+        <p className='font-poppins font-semibold text-left pt-10 text-dimWhite text-[20px] leading-[23.4px] mb-1'> 
+        <a href="https://smartuser.com.au/" className="text-yellow"> Smart User</a> is a part of the <span className="text-yellow">Victorian Energy Upgrades (VEU)</span> program to improve households' energy efficiency which is more affordable and reduces your long term energy consumption. 
 
+        <br/><br/>They can <span className="text-yellow">free upgrade</span>  your old light bulbs and inefficient shower heads to energy saving LED globes and brand new water efficient shower heads.
+
+        <br/><br/>They also provide<span className="text-yellow"> utility services</span> such as free heat pump hot water system and solar panel systems.
+        </p>
           <div className={`flex flex-col sm:pt-[300px] md:flex-row-reverse md:pt-10 h-[700px] justify-center items-center`}>
               {/* 图1 */}
               <div className=' pl-10'>

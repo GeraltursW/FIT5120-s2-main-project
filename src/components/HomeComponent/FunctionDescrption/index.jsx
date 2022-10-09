@@ -1,6 +1,7 @@
 import { features } from "../../../constants/props";
 import styles, {layout} from "../../../style";
 import { Link } from "react-router-dom";
+import {ArrowDown} from "../../../assets";
 
 // 此为card的组件
 // 导入图标内容和文字
@@ -25,6 +26,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
   );
   // 此为整个功能描述的大组件
   const Description = () =>  (
+    
+    <div className="flex flex-col">
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={`${styles.heading2} z-0`}>
@@ -53,12 +56,18 @@ const FeatureCard = ({ icon, title, content, index }) => (
                   )
                 
                 })}
-
-
-
-
-      </div>
+      </div>   
     </section>
+
+    <a href={`#journey`} >
+    <div className=" flex items-center justify-center cursor-pointer">
+      <img  src = {ArrowDown}/>
+    </div>
+    </a>
+
+    </div>
+    
+    
   );
   
   export default Description;

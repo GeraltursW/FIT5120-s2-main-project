@@ -84,7 +84,7 @@ export const navLinks = [
     },
     {
       id: "Calculator",
-      title: "CO2 Calculate",
+      title: "CO2 Calculator",
       url:"/calculator"
     },
     {
@@ -94,20 +94,19 @@ export const navLinks = [
     },
 
     {
-      id: "statistics",
-      title: "Energy Statistics",
-      url:"/statistics"
-    },
-
-    {
       id: "Energy Supplier",
-      title: "Energy Supplier",
+      title: "Energy Provider",
       url:"/energysupplier"
     },
     {
       id: "Carbon offset",
       title: "Carbon offset",
       url:"/carbonoffset"
+    },
+    {
+      id: "statistics",
+      title: "Energy Statistics",
+      url:"/statistics"
     },
 ];
 
@@ -134,7 +133,7 @@ export const features = [
   {
     id: "feature-3",
     icon: star,
-    title: "Calculator",
+    title: "CO2 Calculator",
     url:"/calculator",
     content:
       "Check out how you can reduce your energy usage and help save the planet and money at the same time.",
@@ -142,7 +141,7 @@ export const features = [
   {
     id: "feature-2",
     icon: star,
-    title: "Recommendations",
+    title: "Energy Tips",
     url:"/tips",
     content:
       "Check out how you can reduce your energy usage and help save the planet and money at the same time.",
@@ -150,15 +149,15 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Statistics",
+    title: "Energy Statistics",
     url:"/statistics",
     content:
-      "See how your electricity energy contribute to greenhouse emissions",
+      "Let see how your electricity energy contribute to greenhouse emissions",
   },
   {
     id: "feature-4",
     icon: star,
-    title: "Energy Supplier",
+    title: "Energy Provider",
     url:"/energysupplier",
     content:
       "See the greenest energy companies in Victoria and how they contribute to a carbon neutral future",
